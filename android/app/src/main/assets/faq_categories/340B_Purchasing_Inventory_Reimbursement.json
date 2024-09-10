@@ -1,0 +1,80 @@
+[
+    {
+        "ID": "1349",
+        "lastModified": "Last Modified:08/02/2022",
+        "question": "Can a 340B covered entity transfer 340B drugs to another 340B covered entity site, if both are part of the same healthcare system?",
+        "answer": "No.  A 340B covered entity is prohibited from transferring 340B drugs to anyone other than a patient of that covered entity. Accordingly, one 340B covered entity cannot transfer a 340B drug to patients of a different covered entity. Under the statute, health care delivery systems to which an eligible 340B covered entity may belong are not included in the statute as eligible entities. For more information, please review OPA Accountable Care Organizations Policy Release, 2012-02, available at:https://www.hrsa.gov/sites/default/files/hrsa/opa/accountable-care-05-23-2012.pdf"
+    },
+    {
+        "ID": "1253",
+        "lastModified": "Last Modified:09/14/2020",
+        "question": "Under what circumstances would OPA allow multiple grantee sites registered as different 340B IDs with the same grant number purchase 340B drugs under one account and share 340B inventory (for example, several Title X sites/340B IDs under the same Title X grant)?",
+        "answer": "Each covered entity with a 340B ID is considered a separate entity for purposes of the 340B Program.  HRSA assigns 340B IDs in order for stakeholders to confirm eligibility and appropriate shipment of 340B drugs.  Due to the complex nature of grantees (other than health centers) and their organizational structures and relationships, the sharing of 340B inventory across 340B IDs is not allowed unless first approved by HRSA.  HRSA will consider approval of inventory sharing between unique 340B IDs on a case-by-case basis. Grantees may submit a written request to HRSA to purchase 340B inventory through one account and distribute the inventory to multiple 340B IDs, including a proposal on how the model would ensure all 340B requirements are met.https://www.340bpvp.com/Documents/Public/340B%20Tools/grantee-combined-purchasing-and-distribution-request-for-hrsa.docx"
+    },
+    {
+        "ID": "1360",
+        "lastModified": "Last Modified:01/24/2020",
+        "question": "Does HRSA authorize covered entities to retroactively change previous quartersâ purchases from a non-340B purchase into a 340B price transaction, or to convert from a GPO purchase into non-GPO purchase, through credit and rebill process arranged between the covered entity and the wholesaler?",
+        "answer": "HRSA does not authorize covered entities to reclassify a purchase as 340B eligible after the fact. Covered entities participating in the 340B Program are responsible for requesting 340B pricing at the time of the original purchase. If a covered entity wishes to reclassify a previous purchase as 340B, covered entities should first notify manufacturers and ensure all processes are fully transparent with a clear audit trail that reflects the actual timing and facts underlying a purchase. Drug purchases may be credited and rebilled within the wholesalers contracted and allowed timeframe according to standard business practices, however the covered entity retains responsibility for ensuring full compliance, transparency, and integrity of its use of the 340B Program."
+    },
+    {
+        "ID": "2178",
+        "lastModified": "Last Modified:11/01/2019",
+        "question": "If an organization loses Title X funding, but still has STD funding, what has to happen to the inventory purchased on the Title X 340B account?",
+        "answer": "In general, the Title X purchased 340B inventory should be returned or destroyed according to state law once the eligibility is lost under which the grantee/covered entity purchased the 340B medication. Inventory cannot be transferred from one 340B ID grantee/covered entity to another 340B ID grantee/covered entity when the former entity loses its 340B Program eligibility. Entities with extenuating circumstances should contact HRSA directly for possible alternatives to this approach."
+    },
+    {
+        "ID": "1191",
+        "lastModified": "Last Modified:10/24/2019",
+        "question": "When a product's manufacturer changes the NDC (same manufacturer for the old and new NDC and same product) may we replenish the old NDC with the new NDC as long as we keep records?",
+        "answer": "If a replenishment model is utilized, then it is recommended that the covered entity accumulate 340B purchases for the exact NDC-11 (i.e., NDC and manufacturer) that was originally based on a 340B-eligible patient. The covered entity should have auditable records to demonstrate accumulation in a replenishment model. New products purchased as a new NDC will begin a new replenishment. Manufacturers and covered entities have worked together on mutually agreed to practices, and kept written auditable records."
+    },
+    {
+        "ID": "1204",
+        "lastModified": "Last Modified:11/10/2014",
+        "question": "How should a 340B covered entity return 340B-purchased product?",
+        "answer": "The covered entity should communicate to the reverse distributor or wholesaler any returned drugs that were purchased on a 340B contract. The covered entity may need to refer to historical purchasing records to identify 340B transactions. If the covered entity is a hospital, the entity should separately process returns of 340B inventory and inpatient inventory based on the appropriate contract pricing."
+    },
+    {
+        "ID": "1207",
+        "lastModified": "Last Modified:11/10/2014",
+        "question": "Is using a reverse distributor permissible for 340B drugs?",
+        "answer": "Using a reverse distributor is permissible for 340B drugs under the following conditions: Auditable records are maintained by the entity of the transaction; A licensed reverse distributor is used; All state laws are followed; All 340B statute and guidelines are followed; The entity is not attempting to use the reverse distribution with the expectations of generating profit on 340B purchased drugs. If the entity has questions, we recommend that you work with the manufacturer directly"
+    },
+    {
+        "ID": "1222",
+        "lastModified": "Last Modified:11/10/2014",
+        "question": "Can an entity ever replenish at the 9-digit NDC level?",
+        "answer": "340B covered entities should replenish at the 11-digit NDC level as standard practice. In exceptional circumstances, when 11-digit replenishment is not possible, a covered entity may replenish at the 9-digit NDC level if the covered entity maintains auditable records demonstrating that the appropriate amounts are replenished from the same manufacturer, regardless of the package size. 9-digit NDC replenishment should not be part of standard operations. A covered entity must maintain policies and procedures and auditable records which demonstrate a compliant replenishment model."
+    },
+    {
+        "ID": "1249",
+        "lastModified": "Last Modified:11/10/2014",
+        "question": "If two different 340B entities are using the same contract pharmacy, would it be considered non-compliance if a patientâs visit of both of the entities generates a 340B eligible prescription at one entity, but both entities claim replenishment?",
+        "answer": "Two different 340B covered entities cannot generate a 340B eligible prescription and claim replenishment for the same drug. Claiming replenishment credit for a drug that has already been given to a 340B eligible patient by another 340B covered entity is diversion. Be advised HRSA has the authority to audit covered entities for compliance with 340B requirements (Section 340B (a)(5)(C) of the PHSA)."
+    },
+    {
+        "ID": "1336",
+        "lastModified": "Last Modified:11/10/2014",
+        "question": "We received a pharmacy reimbursement contract from a payer that we feel discriminates against us based upon our status as a 340B entity. Who may we notify about this issue?",
+        "answer": "There is no statutory provision in section 340B of the Public Health Service Act prohibiting a payer from reimbursing a 340B covered entity at a level that may be different than a non-340B entity. HRSA OPA strongly encourages the covered entity to reach out to the payer to craft an alternative business solution that permits each of the parties to fulfill their goals."
+    },
+    {
+        "ID": "1341",
+        "lastModified": "Last Modified:11/10/2014",
+        "question": "May a 340B covered entity give unused 340B drugs to another organization?",
+        "answer": "No.  The 340B statute states that covered entities shall not sell âor otherwise transferâ 340B drugs to non-patients. Providing the drugs to an organization for any purpose is diversion and would violate the statute. The prohibition of diversion applies to all 340B drugs, not just the drugs for which the entity charges a fee."
+    },
+    {
+        "ID": "1343",
+        "lastModified": "Last Modified:11/10/2014",
+        "question": "Must 340B covered entities maintain separate inventories for 340B drugs and other drugs?",
+        "answer": "The 340B statute and guidelines do not require separate physical inventories for 340B drugs. The statute and guidelines do require covered entities to have fully auditable purchasing and dispensing records that document compliance with all 340B requirements including the prohibition on drug diversion and duplicate discounts. Additionally, please check with the stateâs board of pharmacy to determine any state requirements regarding separate inventories."
+    },
+    {
+        "ID": "1506",
+        "lastModified": "Last Modified:11/05/2014",
+        "question": "Can an ADAP covered entity request a rebate on a drug that was purchased at or below the 340B ceiling price by another covered entity?",
+        "answer": "No. An ADAP is not entitled to request a 340B rebate from a manufacturer where the sale of the drug was at or below the 340B ceiling price. It is also necessary for an ADAP to exclude any prescription reimbursements from rebate claims that an ADAP has made to covered entities purchasing drugs at the 340B point of purchase discount."
+    }
+]

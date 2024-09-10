@@ -1,0 +1,20 @@
+[
+    {
+        "ID": "1634",
+        "lastModified": "Last Modified:01/24/2020",
+        "question": "Once a covered entity submits a change request form, must the covered entity do anything else to recertify?",
+        "answer": "Yes. A change request form only updates the covered entity's 340B OPAIS information. Recertification requires the covered entity's Authorizing Official to:(1) update 340B OPAIS information if necessary and;(2) certify compliance with 340B Program requirements.HRSA strongly recommends that the covered entity review and update its 340B OPAIS entry using the change request form prior to recertification.  Both the AO and the PC will receive an âAdvanced Notificationâ email when OPA creates a recertification initiative that includes one or more of their active entities to tell them when the recertification period will begin. Recertification initiatives will not include terminated entities, entities pending termination, or newly registered entities that have not yet reached their participation start date. On the first day of the recertification period, both the AO and the PC will receive an email notification containing the recertification start and end dates.HRSA strongly recommends that the covered entity review and update its 340B OPAIS entry using the change request form prior to recertification.  Once recertification starts, the listed Authorizing Official will receive a user name, password, and recertification user guide to perform annual recertification and attest to the covered entityâs 340B Program compliance.The Authorizing Official is responsible for ensuring 340B Program compliance for the covered entity. Recertification covers the parent covered entity and all registered child sites in the 340B OPAIS."
+    },
+    {
+        "ID": "1463",
+        "lastModified": "Last Modified:12/23/2019",
+        "question": "How is the HRSA Electronic Handbook system used in the 340B recertification process?",
+        "answer": "Section 330 health center grantee and FQHC look-alike site names and addresses will be updated in the recertification process to match those on file in HRSAâs Electronic Handbooks (EHB) system. Authorizing officials will be able to review any changes before they are effective; any major discrepancies should be brought to OPAâs attention via e-mail to340b.recertification@hrsa.gov(please include the affected grant number, 340B ID, and BPHC site ID).OPA encourages covered entities to proactively notify their manufacturer/wholesaler partners of any changes in participation and/or name/address that may result from recertification. Questions on recertification can be directed to ApexusAnswers at 1-888-340-2787 or by e-mail toApexusAnswers@340bpvp.com."
+    },
+    {
+        "ID": "1468",
+        "lastModified": "Last Modified:11/01/2019",
+        "question": "Why are the changes not listed on 340B OPAIS after the Authorizing Official has certified and updated the 340B OPAIS record?",
+        "answer": "The Health Resources and Services Administration (HRSA) reviews all information provided during recertification for completeness and compliance with 340B program requirements. Changes submitted during recertification will be reflected in 340B OPAIS once approved by HRSA. HRSA reserves the right to accept, reject, or require additional documentation to verify the changes requested during recertification before processing these changes in 340B OPAIS."
+    }
+]

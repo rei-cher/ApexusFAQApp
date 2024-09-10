@@ -1,0 +1,92 @@
+[
+    {
+        "ID": "1356",
+        "lastModified": "Last Modified:04/12/2024",
+        "question": "We are a 340B covered entity hospital that qualifies as more than one covered entity type. We have decided to change the status of our registration to be a different entity type, what process should we follow to change our status and ensure no interruption in our 340B services?",
+        "answer": "In order to change the status of the covered entity type registered in 340B OPAIS, please contact the HRSA 340B Program Operations Branch at340bcompliance@hrsa.govas soon as possible.  It is important to remember that the hospital must meet all program requirements during the transition period or prior to the transition period.  A seamless transition can only occur if the hospital is proactive and acts prior to any of the program requirements change for the hospital.  Hospitals are required to complete the regular enrollment process including the online registration forms for the entity type of which you wish to become. Once approved  as the new entity type, OPA will remove the previous status of the entity. Please note that regular quarterly enrollment timelines apply, even if only changing entity status. Also note that any prohibitions required of the new entity status will apply as of the date of the listing in 340B OPAIS for the new entity type. Once you are listed as the new entity type, it is the responsibility of the covered entity to appropriately update its 340B OPAIS records and accounts with wholesalers and/or manufacturers to ensure the new 340B ID is used to purchase 340B drugs."
+    },
+    {
+        "ID": "1190",
+        "lastModified": "Last Modified:05/12/2023",
+        "question": "Do clinics/departments/services located within the four walls of a registered 340B hospital have to be registered in 340B OPAIS?",
+        "answer": "Outpatient clinics/departments/services within the four walls (i.e. same physical mailing address) of the registered parent 340B hospital do not need to separately register/enroll into the 340B Program. However, the covered entity remains responsible for demonstrating that those outpatient clinics/departments/services are listed as reimbursable on the hospitalâs most recently filed Medicare cost report, are only using 340B drugs for eligible outpatients, meet all 340B Program requirements, and maintain auditable records. Clinics/departments/services at an offsite location from the registered parent must separately register on 340B OPAIS, even if they are located within the four walls of that child site. This applies to hospitals that are registered as child sites - every eligible clinic which will purchase or use 340B drugs within such a hospital must register separately as a child site."
+    },
+    {
+        "ID": "1295",
+        "lastModified": "Last Modified:09/28/2022",
+        "question": "How should a hospital covered entity determine if an offsite outpatient facility is eligible for the 340B Program as a child site and should be registered on 340B OPAIS?",
+        "answer": "An offsite hospital outpatient facility is eligible to be registered as a child site if it is listed as a reimbursable facility on the parent hospitalâs most recently filed Medicare cost report and has associated outpatient costs and charges. If the facility is a free-standing clinic of the hospital that submits its own cost reports using a different Medicare provider number (not under the covered entityâs Medicare provider number) then it would NOT be eligible. Specific guidance was released in the 1994 in the following link:https://www.hrsa.gov/sites/default/files/hrsa/opa/outpatient-hospital-facilities-09-1994.pdf. HRSAâs utilizes information from the hospitalâs most recently filed cost report, including information from Worksheet A and Worksheet C and the associated trial balance to determine eligibility. For more information on hospital offsite outpatient facility registration requirements, visithttps://www.hrsa.gov/opa/registration/hospital-registration-instructions.All clinics located offsite of the parent hospital, regardless of whether those clinics are in the same offsite building must register as child sites of the parent hospital if they choose to participate in the 340B Program. These clinics must be a reimbursable clinic of the hospital and have associated outpatient costs and charges in order to be able to register as child sites in 340B OPAIS."
+    },
+    {
+        "ID": "2436",
+        "lastModified": "Last Modified:09/28/2022",
+        "question": "What are HRSAâs expectations regarding hospital eligibility and a contract with State or local government?",
+        "answer": "A hospital that is private, non-profit with a contract with a state or local government to provide health care services to low income individuals who are not entitled to benefits under Medicare or eligible for State Medicaid is eligible for the 340B Program. The hospital must be able to demonstrate through official documentation that it is private non-profit (e.g. hospitalâs charter, Articles of Incorporation, Bylaws, other documents from the State that may certify the hospital is non-profit, an official IRS-990 form or other official IRS documentation). A written contract must exist between the hospital and state or local government to demonstrate the hospitalâs eligibility for the 340B Program. The contract should include names of the hospital and government agency, have signatures of hospital and government agency representatives, and include dates clearly indicating effective dates of the contract. HRSA will request a copy of the contract and documentation demonstrating non-profit status at registration. For more information on documentation requirements for hospital eligibility, visithttps://www.hrsa.gov/opa/registration/hospital-registration-instructions."
+    },
+    {
+        "ID": "1193",
+        "lastModified": "Last Modified:08/02/2022",
+        "question": "May an outpatient facility that is reimbursed by CMS as a provider based facility, but not included on the most recently filed Medicare cost report, participate in the 340B Program?",
+        "answer": "A facility must be both reimbursable and included in the hospitalâs most recently filed Medicare cost report with associated outpatient costs and charges to access the 340B Program and register in 340B OPAIS. HRSAâs outpatient facility guidelines can be found athttps://www.hrsa.gov/sites/default/files/hrsa/opa/outpatient-hospital-facilities-09-1994.pdf"
+    },
+    {
+        "ID": "1319",
+        "lastModified": "Last Modified:08/02/2022",
+        "question": "Our hospital has a clinic (within the four walls of the parent) that does not appear on the hospital's most recently filed Medicare cost report. Is this an eligible 340B area?",
+        "answer": "Only hospital outpatient facilities that appear as reimbursable outpatient cost centers on the hospitalâs most recently filed Medicare cost report are eligible to be listed and participate in the 340B Program. For additional information, please review:https://www.hrsa.gov/sites/default/files/hrsa/opa/outpatient-hospital-facilities-09-1994.pdf"
+    },
+    {
+        "ID": "1687",
+        "lastModified": "Last Modified:08/02/2022",
+        "question": "Must an entity remove a child site as soon as it knows it will not be on the next filed cost report, or should an entity remove a child site upon the date that the next cost report will be filed?",
+        "answer": "HRSA guidance states that an outpatient facility is eligible for the 340B Program if it is a reimbursable facility on the hospitalâs most recently filed Medicare cost report. If the child site will no longer be a reimbursable facility with associated outpatient costs and charges on the next filed Medicare cost report, it can no longer be listed as a registered entity and therefore, a covered entity should submit a change request in 340B OPAIS to remove the outpatient facility the day the hospital files its next Medicare cost report.The outpatient facility guidance can be found here:https://www.hrsa.gov/sites/default/files/hrsa/opa/outpatient-hospital-facilities-09-1994.pdf."
+    },
+    {
+        "ID": "1230",
+        "lastModified": "Last Modified:09/30/2020",
+        "question": "If an entity is funded under more than one grant program that is eligible to participate in the 340B program, must the entity register all programs with the OPA (e.g., the entity is eligible as a Title X Family Planning Clinic and Federally Qualified Health Center)?",
+        "answer": "Eligible entities should consider all program requirements when deciding how to register for the 340B Program and may register more than one grantee type. Entities may only provide 340B drugs to individuals receiving a service consistent with the scope of the grant program for which the entity is registered. Please note that regular quarterly registration timelines apply, even if only adding or changing covered entity status. For more information on registration and deadlines, visit the Office of Pharmacy Affairs (OPA) web site at:https://340bopais.hrsa.gov//home"
+    },
+    {
+        "ID": "4308",
+        "lastModified": "Last Modified:07/23/2020",
+        "question": "What are HRSAâs expectations for providing hospital classification documentation to support eligibility of hospitals in the 340B Program?",
+        "answer": "HRSA is now requesting documentation to support the hospital classification selected at the time of registration to further verify eligibility of parent hospital registrations.The 340B OPAIS will prompt Authorizing Officials and Primary Contacts (AOs and PCs) to upload supporting documentation for the âHospital Classificationâ selected at the time of registration of a parent hospital. These include:â¢Â Â Â Â âPrivate, non-profit which has a contract with a unit of State or local government.ââ¢Â Â Â Â âOwned or operated by a State or local government.ââ¢Â Â Â Â âPublic or private non-profit corporation, which is formally granted governmental powers by a unit of State or local government.âIf a hospital is changing classifications during recertification, they will also be required to upload supporting documents."
+    },
+    {
+        "ID": "1184",
+        "lastModified": "Last Modified:05/29/2020",
+        "question": "How must we register our in-house pharmacy that is a separate legal entity under our 340B covered entity?",
+        "answer": "An in-house pharmacy is not eligible to register as a child site. The in-house pharmacy could be listed as a shipping address. If the covered entity has a contract with the in-house pharmacy because it is a separate legal entity, then it must be registered as a contract pharmacy and may not dispense any 340B drugs until a written contract is in place and the pharmacy is listed as a contract pharmacy for the covered entity on 340B OPAIS."
+    },
+    {
+        "ID": "1240",
+        "lastModified": "Last Modified:05/29/2020",
+        "question": "If a covered entity has physician clinics, do they need to be registered as child sites?",
+        "answer": "Only hospital outpatient facilities that appear as reimbursable outpatient cost centers on the hospitalâs most recently filed Medicare cost report are eligible to be listed and participate in the 340B Program. HRSA requires each hospital to register all of its offsite outpatient facilities where 340B drugs are purchased and/or provided to patients of that facility. This will ensure that each facility has been reviewed and verified by HRSA as eligible to participate in the program, therefore strengthening the hospitalâs compliance efforts."
+    },
+    {
+        "ID": "1241",
+        "lastModified": "Last Modified:05/29/2020",
+        "question": "Can wholesalers / manufacturers refuse to ship to addresses listed in 340B OPAIS?",
+        "answer": "340B OPAIS is the official source for 340B covered entity information. Billing and shipping addresses listed in 340B OPAIS provide manufacturers and wholesalers positive assurance that the purchasing/receiving site is eligible to obtain 340B drugs. Covered entities are responsible for ensuring that the billing and shipping address information in 340B OPAIS is up to date, and OPA verifies each shipping address listed in the database."
+    },
+    {
+        "ID": "1373",
+        "lastModified": "Last Modified:05/28/2020",
+        "question": "What actions does HRSA expect an entity to take if it loses 340B Program eligibility?",
+        "answer": "Covered entities should stop purchasing 340B drugs immediately upon losing eligibility. The entity must complete a termination request on 340B OPAIS and answer the following three questions:1) The date the entity became ineligible;2) The circumstances surrounding the loss of eligibility;3) The last date 340B drugs were purchased.Covered entities should work with the manufacturer to determine the most appropriate method for handling. There may be several options for handling the drug inventory once eligibility is lost. These options will depend upon the specific circumstances but may include transferring the inventory to an associated covered entity site/pharmacy that is still 340B registered, credit/rebill, return, or destruction according to state law. Covered entities should keep auditable records and ensure the process is transparent to manufacturers and wholesalers."
+    },
+    {
+        "ID": "1577",
+        "lastModified": "Last Modified:05/27/2020",
+        "question": "Is a covered entity required to list a pharmacy that is part of the covered entity (i.e. entity-owned pharmacy) on 340B OPAIS?",
+        "answer": "If a covered entity wants to ship 340B drugs directly to an entity-owned pharmacy, the pharmacy address would need to be listed on 340B OPAIS. This is commonly achieved by listing the pharmacy address as a shipping address of the entity. However, if the pharmacy address matches the address of the parent/main site or a registered offsite facility (i.e. child site, associated site) in 340B OPAIS, a separate shipping address listing is not required. Entity-owned pharmacies cannot be registered as a covered entity parent/main site or offsite facility."
+    },
+    {
+        "ID": "1637",
+        "lastModified": "Last Modified:05/27/2020",
+        "question": "When does a pharmacy qualify as a contract pharmacy?",
+        "answer": "340B covered entities may contract with a pharmacy to provide services to the covered entityâs patients, including the service of dispensing entity-owned 340B drugs. To engage in a contract pharmacy arrangement, the entity and pharmacy must have a written agreement in place and register each contract pharmacy location on 340B OPAIS during an open registration period. Typically, a bill-to (entity)/ship-to (pharmacy) arrangement is used."
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "ID": "1555",
+        "lastModified": "Last Modified:06/02/2021",
+        "question": "If our contract pharmacy has been purchased by another pharmacy, do we need to update our records with OPA?",
+        "answer": "If a contract pharmacy has changed ownership, HRSA considers this to be a new contract pharmacy arrangement. The covered entity must have a written contract in place with the new contract pharmacy and register the contract pharmacy arrangement on 340B OPAIS prior to use. Covered entities must complete the online portion of the contract pharmacy registration process during an open registration period. For instructions on how to register a contract pharmacy please refer to the user guide under the \"Help\" section in 340B OPAIS.The covered entity must also terminate the contract pharmacy relationship established under the previous owners. To effectuate the termination, complete an online termination request. Failure to report a change in ownership may result in a lapse in 340B access through the specific contract pharmacy."
+    },
+    {
+        "ID": "1422",
+        "lastModified": "Last Modified:09/14/2020",
+        "question": "What are the audit and compliance parameters under the contract pharmacy guidelines?",
+        "answer": "HRSA audits of covered entities include contract pharmacy arrangements.  The covered entity must have fully auditable records that demonstrate compliance with all 340B Program requirements and the entity remains responsible for ensuring their contract pharmacy arrangements  meet statutory obligations to ensure against diversion or duplicate discounts.  HRSA recommends that covered entities perform quarterly internal audits and annual independent audits (or more frequent as necessary) of all their utilized contract pharmacies to ensure 340B Program compliance. HRSA also recommends that covered entities maintain written policies and procedures to describe contract pharmacy oversight activities, including effective procedures for review of the patient eligibility determination system used at contract pharmacies, and reconciliation of dispensing, purchasing, and billing records to ensure that diversion and duplicate discounts have not occurred.If the covered entity determines that drug diversion or duplicate discounts occurred or that it is otherwise unable to comply with its responsibility to reasonably ensure compliance, the covered entity can you use this Self Disclosure tool to disclose the violation to HRSAhttps://www.340bpvp.com/Documents/Public/340B%20Tools/self-disclosure-to-hrsa-and-manufacturer-template.docx.  This information should be mailed to: Health Resources and Services Administration, Office of Pharmacy Affairs, 5600 Fishers Lane, Mail Stop 08W05A, Rockville, MD 20857."
+    },
+    {
+        "ID": "1437",
+        "lastModified": "Last Modified:03/24/2020",
+        "question": "May 340B drugs be used for Medicaid fee-for-service (FFS) patients as part of a 340B contract pharmacy?",
+        "answer": "340B drugs may not be used for Medicaid FFS patients at a contract pharmacy, absent an arrangement between the contract pharmacy, covered entity, and state Medicaid agency to prevent duplicate discounts.  Any such arrangement shall be reported to the HRSA Office of Pharmacy Affairs by the covered entity. Once HRSA reviews and approves the arrangement, HRSA posts contract pharmacies that use 340B drugs for Medicaid FFS patients on the 340B OPAIS.  For additional information, seehttps://www.gpo.gov/fdsys/pkg/FR-2010-03-05/pdf/2010-4755.pdf"
+    },
+    {
+        "ID": "1450",
+        "lastModified": "Last Modified:01/24/2020",
+        "question": "What are the record-keeping requirements for contract pharmacies?",
+        "answer": "The covered entity must have fully auditable records that demonstrate compliance with all 340B Program requirements and the entity remains responsible for ensuring their contract pharmacies meet statutory obligations to ensure against diversion or duplicate discounts.  HRSA recommends that covered entities perform quarterly internal audits and annual independent audits (or more frequent as necessary) of all their utilized contract pharmacies to ensure 340B Program compliance, although the exact method of ensuring compliance is left up to the entity. HRSA also recommends that covered entities maintain written policies and procedures to describe contract pharmacy oversight activities, including effective procedures for review of the patient eligibility determination system used at contract pharmacies, and reconciliation of dispensing, purchasing, and billing records to ensure that diversion and duplicate discounts have not occurred.In addition, and as a best practice, the contract pharmacy provides the covered entity with reports consistent with customary business practices (e.g. quarterly billing statements, status report of collections and receiving and dispensing records). The contract pharmacy, with the assistance of the covered entity, establish and maintain a tracking system suitable to prevent diversion of 340B drugs and duplicate discounts on the drugs. The contract pharmacy assures that all pertinent reimbursement accounts and dispensing records, maintained by the pharmacy, will be accessible separately from the pharmacyâs own operations and will be made available to the covered entity, HRSA, and the manufacturer in the case of an audit."
+    },
+    {
+        "ID": "1456",
+        "lastModified": "Last Modified:01/24/2020",
+        "question": "What is a ship to bill to arrangement?",
+        "answer": "The ship to bill to procedure refers to an arrangement set up by the covered entity who is responsible for purchasing 340B drugs from wholesalers and/or manufacturers and directs those 340B drugs to be shipped to the contract pharmacy. In other words, the covered entity maintains title of the 340B drugs, but the contract pharmacy houses the drugs and provides dispensing services to patients of the covered entity."
+    },
+    {
+        "ID": "1629",
+        "lastModified": "Last Modified:01/24/2020",
+        "question": "Are 340B covered entities required to contract with a retail pharmacy?",
+        "answer": "No. Covered entities are free to choose how they will provide 340B pharmacy services to their patients, subject to federal and state laws. Options include contracting with a retail pharmacy, providing in-house pharmacy services, administering drugs to patients, etc.  For more information, including tools and technical assistance in providing 340B pharmacy services, contact Apexus Answers at 888-340-2787, orApexusAnswers@340bpvp.com."
+    },
+    {
+        "ID": "1481",
+        "lastModified": "Last Modified:01/12/2020",
+        "question": "If a contract pharmacy is serving more than one covered entity, and it keeps the inventories physically separate for each entity, may the pharmacy arrange for one inventory to borrow from another if it is running low of a particular drug?",
+        "answer": "No, a contract pharmacy serving more than one covered entity may not arrange for one inventory to borrow from another if it is running low of a particular drug. In this contract pharmacy situation, the contract pharmacy keeps physically separate inventories for each separate 340B ID# it does not use a replenishment model. The physically separate 340B inventories belong to different 340B entities. Borrowing from one 340B ID/covered entityâs inventory to give to another 340B entityâs places the entity at risk for diversion."
+    },
+    {
+        "ID": "1496",
+        "lastModified": "Last Modified:12/27/2019",
+        "question": "Our contract pharmacy uses a repackager at a separate address from the contract pharmacy to process 340B prescriptions. Must we register the repackager on 340B OPAIS?",
+        "answer": "The covered entity is not required to register the repackager as a contract pharmacy so long as:(1) the covered entity retains ownership and title to the 340B drugs;(2) the covered entity will not sell its 340B drugs or otherwise transfer ownership to the repackager; and (3) the repackager will not dispense 340B drugs.Based on those specific circumstances, and the fact that the repackager is not a pharmacy and will not dispense drugs, OPA does not require the repackager to register as a contract pharmacy."
+    },
+    {
+        "ID": "1508",
+        "lastModified": "Last Modified:12/27/2019",
+        "question": "Is there any information on how to construct a contract between a 340B-eligible entity and a local pharmacy regarding contract pharmacy?",
+        "answer": "HRSA has provided essential covered entity compliance elements to address in contract pharmacy arrangements (75 Fed. Reg. 10272, Mar. 5 2010). This guideline is available here:https://www.gpo.gov/fdsys/pkg/FR-2010-03-05/pdf/2010-4755.pdf"
+    },
+    {
+        "ID": "1531",
+        "lastModified": "Last Modified:12/27/2019",
+        "question": "How do I register a contract pharmacy?",
+        "answer": "Covered entities that elect to utilize contract pharmacy arrangements must register each contract pharmacy location in 340B OPAIS once a written agreement is executed. Covered entities complete the online portion of the contract pharmacy registration process during an open registration period. For more information regarding contract pharmacy registration, please visit the HRSA OPA website athttps://www.hrsa.gov/opa/implementation/contract/index.html"
+    },
+    {
+        "ID": "2507",
+        "lastModified": "Last Modified:12/27/2019",
+        "question": "When reviewing a contract pharmacy agreement, what does HRSA look for?",
+        "answer": "HRSA ensures that contract pharmacy agreements:1) are dated prior to the registration period;2) include a list of all applicable covered entity locations identified by name and address identical to 340B OPAIS records or provide an all-inclusive statement identifying all parent and child/associated sites actively listed in 340B OPAIS;3) include a list of all pharmacy locations identified by name and address which should identically match those submitted for registration; and4) include signatures of officials from both the entity and the pharmacy."
+    },
+    {
+        "ID": "1523",
+        "lastModified": "Last Modified:11/01/2019",
+        "question": "What is the effective date for a contract pharmacy arrangement?",
+        "answer": "The registration periods and effective dates for 340B Program contract pharmacies are:  October 1 â October 15 for an effective start date of January 1; January 1 â January 15 for an effective start date of April 1; April 1 â April 15 for an effective start date of July 1; and July 1 â July 15 for an effective start date of October 1.  If the 15th falls on a Saturday, Sunday, or Federal holiday, the deadline for submitting contract pharmacy registrations will be the next business day. HRSA will not post a retroactive date for any contract pharmacy arrangement; as such, the date that the organization submitted the registration request should not be presumed the effective date.  A covered entity may not use a contract pharmacy prior to its effective date listed on 340B OPAIS.For more information on how to register a contract pharmacy, please seehttp://www.hrsa.gov/opa/implementation/contract/index.html."
+    }
+]

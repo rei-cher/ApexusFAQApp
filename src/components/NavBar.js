@@ -8,6 +8,7 @@ import ListScreen from '../screens/ListScreen';
 import FAQScreen from '../screens/FAQScreen';
 import SearchScreen from '../screens/SearchScreen';
 import SettingsScreen from '../screens/SettingsScreen';
+import HeaderLogo from './HeaderLogo';
 
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
@@ -45,9 +46,20 @@ export default function NavBar() {
         tabBarStyle: { paddingBottom: 10, height: 60 },
       })}
     >
-      <Tab.Screen name="HomeTab" component={MainStackNavigator}/>
-      <Tab.Screen name="Search" component={SearchScreen} />
-      <Tab.Screen name="Settings" component={SettingsScreen} />
+      <Tab.Screen name="HomeTab" 
+        component={MainStackNavigator} 
+        options={{headerTitle: ()=> <HeaderLogo name="Home"/>}}
+      />
+
+      <Tab.Screen name="Search" 
+        component={SearchScreen} 
+        options={{headerTitle: ()=> <HeaderLogo name="Search"/>}}
+      />
+
+      <Tab.Screen name="Settings" 
+        component={SettingsScreen} 
+        options={{headerTitle: ()=> <HeaderLogo name="Settings"/>}}
+      />
     </Tab.Navigator>
   );
 }

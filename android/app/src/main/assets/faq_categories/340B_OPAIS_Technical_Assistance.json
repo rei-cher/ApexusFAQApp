@@ -1,0 +1,98 @@
+[
+    {
+        "ID": "2583",
+        "lastModified": "Last Modified:08/09/2024",
+        "question": "What are best practices for entities when a product does not have a 340B price available, or the product is unavailable?",
+        "answer": "Some best practices include:1. Check the labeler code on 340B OPAIS (https://340bopais.hrsa.gov/manufacturersearch), and check the Medicaid Drug Rebate Program labeler code (https://data.medicaid.gov/dataset/0ad65fe5-3ad3-5d79-a3f9-7893ded7963a) to help determine if the drug is a covered outpatient drug in the Medicaid Drug Rebate Program and subsequently should have a 340B price.2. Review official resources for reported shortages.3. If the product is NOT listed on the shortage websites, contact the wholesaler and/or manufacturer to confirm unavailability, and assess target date for availability.  If an entity is still unable to obtain the product at the 340B price, notify OPA detailing the covered outpatient drug(s) involved, the manufacturer, and the communication between the parties as to why the product was not available at 340B pricing, by submitting the HRSA Template Notification Tool: Unavailable 340B Pricehttps://www.340bpvp.com/Documents/Public/340B%20Tools/340B-ceiling-price-unavailable-incorrect-340b-ceiling-price-notification-for-hrsa.pdf"
+    },
+    {
+        "ID": "2441",
+        "lastModified": "Last Modified:08/02/2022",
+        "question": "How do I create my account in 340B OPAIS?",
+        "answer": "To create an account in 340B OPAIS, please use the following steps:1.Â Â Â Â From the 340B OPAIS home page, click the âI am a Participantâ icon or click the âLoginâ icon in the top menu.2.Â Â Â Â Click the âCreate new accountâ link.3.Â Â Â Â Type your email address in the space provided and click âSearch.â4.Â Â Â Â The âCreate a New Userâ registration page will be displayed:a.Â Â Â Â If your email address is currently associated with an active or approved covered entity or manufacturer record as an AO or PC, your email address, name, title, organization (if available), phone number and extension will be populated automatically.b.Â Â Â Â If your email address has not been previously associated with a covered entity or manufacturer, enter your name, title, organization name (employer), phone number, and extension in the spaces provided before proceeding. All fields are required except phone extension.5.Â Â Â Â For âParent Entity Type,â select either covered entity or manufacturer.6.Â Â Â Â Type your password and then type it again to confirm.7.Â Â Â Â Type the CAPTCHA code displayed in the image in the text box.8.Â Â Â Â Click âRegister.âThe 340B OPAIS will check for an existing account with your email address and validate the account.  OPA Staff will review new user account requests and confirm or deny access to the 340B record.These steps along with your account validation activity are found in the 340B OPAIS Public User Guide on the 340B website (https://340bopais.hrsa.gov/help/Home.htm) specifically the section on creating an account."
+    },
+    {
+        "ID": "2442",
+        "lastModified": "Last Modified:08/02/2022",
+        "question": "How do I log into 340B OPAIS?",
+        "answer": "For authorized users with an existing account in 340B OPAIS, you can use the following steps to log into 340B OPAIS:1.Â Â Â Â Click âLoginâ in the top menu of the 340B OPAIS homepage or click the âI Am a Participantâ icon.2.Â Â Â Â Type your email address and password in the spaces provided.3.Â Â Â Â Click âSign In.âa.Â Â Â Â If your login credentials are correct and you have an active account, the system will display the âTwo-Step Authenticationâ page and send you an email containing a 6-digit authorization code.4.Â Â Â Â Copy the authentication code from that email, paste it in the âCodeâ text box5.Â Â Â Â Click âSubmit Code.â6.Â Â Â Â The system will prompt you to agree to the â340B OPAIS Rules of Behavior.â7.Â Â Â Â Click on the checkbox next to the acknowledgement of responsibilities statement.8.Â Â Â Â Click âAgreeâ or âCancelâ button.These steps can be found in the 340B OPAIS Public User Guide on the 340B website:https://340bopais.hrsa.gov/help/Home.htm"
+    },
+    {
+        "ID": "2443",
+        "lastModified": "Last Modified:08/02/2022",
+        "question": "How do I reset my password in 340B OPAIS?",
+        "answer": "Please use the following steps to reset your password in 340B OPAIS:1.Â Â Â Â From the login page, click âRecover Your Accountâ link.2.Â Â Â Â Type your email address.3.Â Â Â Â Click âReset Password.â4.Â Â Â Â An email will be sent to you containing a password reset URL.5.Â Â Â Â Click the URL in the email message.6.Â Â Â Â Enter and confirm your new password.7.Â Â Â Â When reset is complete, you may proceed to log in as usual.These steps can be found in the 340B OPAIS Public User Guide on the 340B website:https://340bopais.hrsa.gov/help/Home.htm"
+    },
+    {
+        "ID": "2444",
+        "lastModified": "Last Modified:08/02/2022",
+        "question": "My email address changed, how do I update my secure access in 340B OPAIS?",
+        "answer": "If the user is already registered in 340B OPAIS and the user no longer has access to the registered email address, the user will need to create a new account via the online change request process.  HRSAâs Office of Pharmacy Affairs (OPA) will review and determine whether to approve the submitted change request.If you are using your current email address to access 340B OPAIS, but would like to change that email address, you will need to submit a change request via the online change request process.The step-by-step instructions for submitting a change request can be found in the 340B OPAIS Public User Guide on the 340B website:https://340bopais.hrsa.gov/help/Home.htm"
+    },
+    {
+        "ID": "2445",
+        "lastModified": "Last Modified:08/02/2022",
+        "question": "Will the change request process be different in 340B OPAIS?",
+        "answer": "Except for new account creation, only a covered entity or a manufacturer AO or PC can submit an online change request.  Only an AO has the ability to approve on behalf of the covered entity or manufacturer and submit a change request.  Manufacturers will no longer have a paper change request process and will follow the same online change request process as covered entities.For help on how to submit a change request please refer to the 340B OPAIS Public User Guide on the 340B website:https://340bopais.hrsa.gov/help/Home.htm"
+    },
+    {
+        "ID": "1415",
+        "lastModified": "Last Modified:10/04/2021",
+        "question": "How do I request the termination of an outpatient facility?",
+        "answer": "Access 340B OPAIS athttps://340bopais.hrsa.gov/. From the Covered Entity Details page for an active entity for which the user is responsible as AO or PC, click the Terminate button. The Covered Entity Termination page will be displayed for the entity. Select a reason from the drop-down list. If none of the terminations reasons apply, e-mailApexusAnswers@340bpvp.comfor additional guidance.Upon clicking the Submit button, the system will display a confirmation message. Click the OK button to complete the termination and return to the landing page. If the AO is submitting the termination request, they should select this box to submit the termination request for OPA approval. Upon OPA approval of the termination, both the AO and the PC will receive a 340B Program Termination email, and the entityâs status will be changed to âTo Be Terminated.â After the termination effective date, the entityâs 340B status will be updated to âterminatedâ in 340B OPAIS."
+    },
+    {
+        "ID": "2615",
+        "lastModified": "Last Modified:09/09/2020",
+        "question": "Why may the price be different on OPAIS than what I see on my wholesaler catalog?",
+        "answer": "The 340B Package Adjusted Price and 340B ceiling price may look different than the 340B selling price (price seen in a wholesaler catalog) for a number of reasons. These may include sub-340B contracts (PVP or individual), wholesaler fees (commonly a percentage added to or subtracted from the total cost of the product), and differences in quantities (for example, between the case size in OPAIS and a package size in the wholesaler system). If a covered entity believes they have been overcharged after researching the issue, they may complete a â340B Ceiling Price Unavailable/Incorrect 340B Ceiling Price Notification for HRSAâ form, which can be found on the 340B Prime Vendorâs website athttps://www.340bpvp.com/resource-center/340b-tools"
+    },
+    {
+        "ID": "2448",
+        "lastModified": "Last Modified:03/26/2020",
+        "question": "What is the current process for recertification in 340B OPAIS?",
+        "answer": "For recertification in 340B OPAIS, the AO is notified of dates, times, and requirements of recertification via their listed email in 340B OPAIS. The AO has access via their 340B OPAIS user account-landing page where the AO has access to all 340B records their linked to and those that require annual recertification. At the start of covered entity recertification, a task is created in the PCâs task list for each 340B record that must be recertified. The same task is created in the AOâs task list. Either the PC or the AO can complete recertification for a covered entity record, but only the AO can attest and submit it to OPA. If the PC completes recertification for a covered entity record, that creates a task in the AOâs task list. The AO can make changes if necessary before attesting and submitting to OPA."
+    },
+    {
+        "ID": "2449",
+        "lastModified": "Last Modified:03/25/2020",
+        "question": "How many AOs and PCs can a covered entity or manufacturer have in 340B OPAIS?",
+        "answer": "Authorized covered entities and manufacturers are only granted one AO and one PC per 340B record. A 340B record is defined as an individual manufacturer labeler code or covered entity 340B ID. For covered entity hospitals and their outpatient facilities, as well as community health centers and their associated grant sites, each record has one AO and one PC per record.  There is a requirement for hospital covered entity types that the AO be the same for all child sites, but the PC may be a separate person for each record.  For example, hospital A with three outpatient facilities has the same AO for all records, but may select a separate PC for each record.  While each record has only one AO and PC, the PC is not required to be the same person on each record. Manufacturers with multiple labeler codes may select different AOs and PCs for each labeler code."
+    },
+    {
+        "ID": "2346",
+        "lastModified": "Last Modified:01/24/2020",
+        "question": "What date/quarter are manufacturers required to submit 340B pricing to HRSA?",
+        "answer": "Manufacturers must submit 340B pricing information to HRSA, which will begin within a two week period starting on or about day 45 of the quarter.  The pricing component of the 340B OPAIS will send an email alert to the registered authorizing official and primary contact of the manufacturer when the two-week window for reporting is open, as well as daily reminders that tasks are pending within the pricing component of the 340B OPAIS."
+    },
+    {
+        "ID": "2437",
+        "lastModified": "Last Modified:01/24/2020",
+        "question": "What is the purpose of 340B OPAIS?",
+        "answer": "The new system increases the integrity and effectiveness of 340B stakeholder information and focuses on three key priorities: security, user accessibility, and accuracy. The new 340B Office of Pharmacy Affairs Information System (340B OPAIS) replaced the legacy 340B Database in its entirety which includes security updates and enhancements used for covered entity/manufacturer registrations, change requests, recertification, and other updates. Some of the key features of 340B OPAIS include:1.Â Â Â Â Manufacturers and covered entities ability to manage their own 340B record.2.Â Â Â Â Improved efficiency through a task-oriented landing page for the covered entity/manufacturers Authorizing Officials (AOs). Additionally, covered entities and manufacturers receive e-mail notifications of pending tasks.3.Â Â Â Â Enhanced security features such as two-part authentication for covered entities and manufacturers."
+    },
+    {
+        "ID": "2438",
+        "lastModified": "Last Modified:01/24/2020",
+        "question": "Who has access to the secure 340B OPAIS?",
+        "answer": "Individuals from manufacturer or covered entity organizations listed as an Authorizing Official (AO) or Primary Contact (PC) of a manufacturer or covered entity record are required to create a secure user account.  The AO or PC then has access to the 340B records the AO or PC are associated.  There is only one AO and PC per 340B record.  A 340B record is defined as an individual manufacturer labeler code or covered entity 340B ID."
+    },
+    {
+        "ID": "2439",
+        "lastModified": "Last Modified:01/24/2020",
+        "question": "Will I be required to log into 340B OPAIS?",
+        "answer": "All AOs and PCs for a manufacturer or covered entity are required to log into 340B OPAIS and create a user account before any access is granted to the 340B record. Steps for creating a user account are determined by whether the user is currently listed with a 340B OPAIS record or are a first time user requesting to be associated with a manufacturer or covered entity record."
+    },
+    {
+        "ID": "2446",
+        "lastModified": "Last Modified:01/24/2020",
+        "question": "Can I still use 340B OPAIS if I am neither a participating covered entity or manufacturer?   What information will I be able to access if I do not have a login account?",
+        "answer": "340B OPAIS has public search and reports functionalities, with limited public viewing privileges, that will still be available. Covered entity, manufacturer, and contract pharmacy profiles are still accessible for public viewing. All registration, recertification, change and termination requests for covered entities and manufacturers can perform these actions in 340B OPAIS and are only accessible by their respective AO and PC."
+    },
+    {
+        "ID": "2451",
+        "lastModified": "Last Modified:01/24/2020",
+        "question": "What is an associated site for Community Health Centers and Federally Qualified Health Centers (FQHCs)?",
+        "answer": "An associated site is terminology used by HRSAâs OPAIS to indicate sites that share grant numbers (CHCs) or a designation number (Federally Qualified Health Center Look-alikes). Prior to September 2017, these covered entity types had a parent-child relationship.  The 340B ID numbers of these entity types will not be changing, only the terminology: from parent-child to âassociated sites.â No other type of covered entity will have the associated site terminology."
+    }
+]
