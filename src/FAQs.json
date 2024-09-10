@@ -1,0 +1,61 @@
+{
+    "faqs": [
+      {
+        "id": "1",
+        "categoryId": "1",
+        "question": "What is Apexus?",
+        "answer": "Apexus is a leading provider of educational resources and information.",
+        "lastModified": "2024-01-01"
+      },
+      {
+        "id": "2",
+        "categoryId": "1",
+        "question": "How do I contact Apexus support?",
+        "answer": "You can contact Apexus support by emailing support@apexus.com or calling 123-456-7890.",
+        "lastModified": "2024-02-15"
+      },
+      {
+        "id": "3",
+        "categoryId": "2",
+        "question": "How do I reset my password?",
+        "answer": "To reset your password, go to the login page and click on the 'Forgot Password' link.",
+        "lastModified": "2024-03-10"
+      },
+      {
+        "id": "4",
+        "categoryId": "2",
+        "question": "Why can't I log into my account?",
+        "answer": "Ensure your username and password are correct. If the issue persists, contact support.",
+        "lastModified": "2024-04-22"
+      },
+      {
+        "id": "5",
+        "categoryId": "3",
+        "question": "How do I update my account details?",
+        "answer": "Go to the 'Account Settings' page and update your information.",
+        "lastModified": "2024-05-30"
+      },
+      {
+        "id": "6",
+        "categoryId": "3",
+        "question": "How do I delete my account?",
+        "answer": "To delete your account, please contact customer support at support@apexus.com.",
+        "lastModified": "2024-06-12"
+      },
+      {
+        "id": "7",
+        "categoryId": "1",
+        "question": "What services does Apexus offer?",
+        "answer": "Apexus offers a variety of educational services, including webinars, training sessions, and consultation.",
+        "lastModified": "2024-07-01"
+      },
+      {
+        "id": "8",
+        "categoryId": "2",
+        "question": "How do I troubleshoot technical issues?",
+        "answer": "You can troubleshoot technical issues by visiting our support page or contacting technical support.",
+        "lastModified": "2024-08-09"
+      }
+    ]
+  }
+  
