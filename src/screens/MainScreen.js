@@ -35,19 +35,32 @@ export default function MainScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 20,
+    backgroundColor: '#f5f5f5',
+    paddingHorizontal: 16,
+    paddingTop: 20,
   },
   title: {
-    fontSize: 24,
+    textAlign: 'center',
+    fontSize: 28,
+    fontWeight: '600',
     marginBottom: 20,
+    color: '#333',
   },
   category: {
-    padding: 15,
-    backgroundColor: '#e0e0e0',
-    marginBottom: 10,
-    borderRadius: 5,
+    backgroundColor: '#fff',
+    padding: 20,
+    borderRadius: 12,
+    marginVertical: 8,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.2,
+    shadowRadius: 5,
+    elevation: 3,
   },
   categoryText: {
+    textAlign: 'center',
     fontSize: 18,
+    fontWeight: '500',
+    color: '#333',
   },
 });

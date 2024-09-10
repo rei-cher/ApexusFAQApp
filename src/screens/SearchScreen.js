@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
-import { View, Text, TextInput, FlatList, StyleSheet } from 'react-native';
+import { View, Text, TouchableOpacity, TextInput, FlatList, StyleSheet } from 'react-native';
+import { useNavigation } from '@react-navigation/native';
 import FAQs from '../FAQs.json'; // Import the FAQs placeholder data
 
 export default function SearchScreen() {
   const [searchText, setSearchText] = useState('');
   const [filteredFAQs, setFilteredFAQs] = useState([]);
+
+  const navigation = useNavigation();
 
   const handleSearch = (text) => {
     setSearchText(text);
@@ -16,10 +19,13 @@ export default function SearchScreen() {
   };
 
   const renderFAQ = ({ item }) => (
-    <View style={styles.faqItem}>
+    <TouchableOpacity 
+      style={styles.faqItem}
+      onPress={() => navigation.navigate('FAQDetail', {faqId: item.id})}
+    >
       <Text style={styles.question}>{item.question}</Text>
       <Text style={styles.answer}>{item.answer.slice(0, 50)}...</Text>
-    </View>
+    </TouchableOpacity>
   );
 
   return (
@@ -42,7 +48,7 @@ export default function SearchScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 20,
+    padding: 20
   },
   searchInput: {
     height: 40,
@@ -50,12 +56,13 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     marginBottom: 20,
     paddingLeft: 10,
+    borderRadius: 20
   },
   faqItem: {
     padding: 15,
     backgroundColor: '#e0e0e0',
     marginBottom: 10,
-    borderRadius: 5,
+    borderRadius: 15,
   },
   question: {
     fontSize: 18,
