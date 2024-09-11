@@ -46,12 +46,12 @@ export default function ListScreen() {
   const renderFAQ = ({ item }) => (
     <TouchableOpacity
       style={styles.faqItem}
-      onPress={() => navigation.navigate('FAQDetail', { faqId: item.ID, categoryId: route.params.categoryId  })}
+      onPress={() => navigation.navigate('FAQDetail', { faqId: item.ID, categoryId: route.params.categoryId, fromScreen: 'List' })}
     >
       <Text style={[globalStyle.subheading, {textAlign: 'left'}]}>Question:</Text>
       <Text style={globalStyle.text}>{item.question}</Text>
       <Text style={[globalStyle.subheading, {textAlign: 'left'}]}>Answer:</Text>
-      <Text style={globalStyle.text}>{item.answer.slice(0, 150)}... <Text style={styles.continueReading}>{'\n'}Continue Reading</Text></Text>
+      <Text style={globalStyle.text}>{item.answer.slice(0, 100)}... <Text style={styles.continueReading}>{'\n'}Continue Reading</Text></Text>
     </TouchableOpacity>
   );
 

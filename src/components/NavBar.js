@@ -13,14 +13,25 @@ import HeaderLogo from './HeaderLogo';
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
 
+// Stack navigation for Main, List, and FAQ screen
 function MainStackNavigator() {
   return (
     <Stack.Navigator screenOptions={{headerShown: false}}>
       <Stack.Screen name="Main" component={MainScreen}/>
       <Stack.Screen name="List" component={ListScreen}/>
-      <Stack.Screen name="FAQDetail" component={FAQScreen}/>
+      <Stack.Screen name="FAQDetail" component={FAQScreen} initialParams={{ fromScreen: 'List'}}/>
     </Stack.Navigator>
   );
+}
+
+// Stack navigation fro Search and FAQ screen
+function SearchStackNavigator() {
+  return (
+    <Stack.Navigator screenOptions={{headerShown: false}}>
+      <Stack.Screen name="Search" component={SearchScreen}/>
+      <Stack.Screen name="FAQDetail" component={FAQScreen} initialParams={{ fromScreen: 'Search'}}/>
+    </Stack.Navigator>
+  )
 }
 
 export default function NavBar() {
@@ -32,7 +43,7 @@ export default function NavBar() {
 
           if (route.name === 'HomeTab') {
             iconName = focused ? 'home' : 'home-outline';
-          } else if (route.name === 'Search') {
+          } else if (route.name === 'SearchTab') {
             iconName = focused ? 'search' : 'search-outline';
           } else if (route.name === 'Settings') {
             iconName = focused ? 'settings' : 'settings-outline';
@@ -51,8 +62,8 @@ export default function NavBar() {
         options={{headerTitle: ()=> <HeaderLogo name="Home"/>}}
       />
 
-      <Tab.Screen name="Search" 
-        component={SearchScreen} 
+      <Tab.Screen name="SearchTab" 
+        component={SearchStackNavigator} 
         options={{headerTitle: ()=> <HeaderLogo name="Search"/>}}
       />
 

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, TouchableOpacity, TextInput, FlatList, StyleSheet } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { categoryFileMap } from '../helpers/categoryMapping';
+import { globalStyle } from '../assets/globalStyle';
 
 export default function SearchScreen() {
   const [searchText, setSearchText] = useState('');
@@ -41,10 +42,10 @@ export default function SearchScreen() {
   const renderFAQ = ({ item }) => (
     <TouchableOpacity
       style={styles.faqItem}
-      onPress={() => navigation.navigate('FAQDetail', { faqId: item.ID, categoryId: item.categoryId })}
+      onPress={() => navigation.navigate('FAQDetail', { faqId: item.ID, categoryId: item.categoryId, fromScreen: 'Search' })}
     >
-      <Text style={styles.question}>{item.question}</Text>
-      <Text style={styles.answer}>{item.answer.slice(0, 50)}...</Text>
+      <Text style={[globalStyle.subheading, {textAlign: 'left'}]}>{item.question}</Text>
+      <Text style={globalStyle.text}>{item.answer.slice(0, 100)}...</Text>
     </TouchableOpacity>
   );
 
@@ -71,12 +72,13 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   searchInput: {
-    height: 40,
+    height: 50,
     borderColor: 'gray',
     borderWidth: 1,
     marginBottom: 20,
     paddingLeft: 10,
     borderRadius: 20,
+    fontSize: 20
   },
   faqItem: {
     padding: 15,

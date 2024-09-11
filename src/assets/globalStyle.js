@@ -25,11 +25,12 @@ export const globalStyle = StyleSheet.create({
 
     //Regular text
     text: {
-        fontSize: 15,
+        fontSize: 16,
         fontFamily: 'NunitoSans',
         fontWeight: '500',
         color: '#000000',
         marginBottom: 10,
-        lineHeight: 20
+        lineHeight: 20,
+        paddingBottom: 10
     }
 })

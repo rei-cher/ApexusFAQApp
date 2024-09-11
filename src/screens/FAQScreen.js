@@ -1,18 +1,24 @@
 import React, {useState, useEffect } from 'react';
-import { View, Text, Button, StyleSheet } from 'react-native';
+import { View, ScrollView, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import { categoryFileMap } from '../helpers/categoryMapping';
+import Ionicons from 'react-native-vector-icons/Ionicons';
+import { globalStyle } from '../assets/globalStyle';
 
 export default function FAQScreen() {
+  console.log('=== In FAQScreen ===')
+
   const navigation = useNavigation();
   const route = useRoute();
-  const { faqId, categoryId } = route.params; // Get categoryId from params
+  const { faqId, categoryId, fromScreen } = route.params; // Get categoryId from params
 
   const [faq, setFaq] = useState(null);
+  const [isExpended, setIsExpended] = useState(false);
 
   useEffect(() => {
     console.log('categoryId:', categoryId); // Debugging the categoryId
     console.log('faqId:', faqId); // Debugging the faqId
+    console.log('fromScreen:', fromScreen);
     
     const loadFAQ = () => {
       try {
@@ -44,12 +50,46 @@ export default function FAQScreen() {
     );
   }
 
+  // Handle navigation back based on where the user came from
+  const handleBackPress = () => {
+    if (fromScreen === 'Search') {
+      navigation.navigate('Search');
+    }
+    else if (fromScreen === 'List') {
+      navigation.goBack();
+    }
+  }
+
   return (
     <View style={styles.container}>
-      <Button title="Go Back" onPress={() => navigation.goBack()} />
-      <Text style={styles.question}>{faq.question}</Text>
-      <Text style={styles.answer}>{faq.answer}</Text>
+
+      <TouchableOpacity onPress={handleBackPress} style={styles.backButton}>
+        <Ionicons name="arrow-back" size={24} color="black" />
+      </TouchableOpacity>
+
       <Text style={styles.lastModified}>{faq.lastModified}</Text>
+
+      <View style={styles.questionContainer}>
+        <View style={styles.questionRow}>
+          <Text style={[globalStyle.subheading, {textAlign: 'left', flex: 1}]}>
+            {isExpended ? faq.question : `${faq.question.slice(0, 50)}...`}
+          </Text>
+
+          <TouchableOpacity onPress={() => setIsExpended(!isExpended)}>
+            <Ionicons
+              name={isExpended ? 'chevron-up-outline' : 'chevron-down-outline'}
+              size={24}
+              color='grey'
+            />
+          </TouchableOpacity>
+
+        </View>
+      </View>
+
+      <ScrollView style={styles.answerContainer}>
+        <Text style={globalStyle.text}>{faq.answer}</Text>
+      </ScrollView>
+
     </View>
   );
 }
@@ -59,16 +99,30 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 20,
   },
-  question: {
-    fontSize: 24,
-    marginBottom: 20,
-  },
-  answer: {
-    fontSize: 16,
+  questionContainer:{
+    padding: 15,
+    backgroundColor: '#b5b5b5',
     marginBottom: 10,
+    borderRadius: 15,
   },
+
+  questionRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+
+  answerContainer:{
+    padding: 15,
+    backgroundColor: '#dedede',
+    marginBottom: 10,
+    borderRadius: 15,
+  },
+
   lastModified: {
-    fontSize: 12,
+    textAlign: 'center',
+    fontSize: 14,
     color: '#666',
+    paddingBottom: 10,
+    textDecorationLine: 'underline'
   },
 });
