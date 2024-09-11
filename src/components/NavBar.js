@@ -6,20 +6,32 @@ import Ionicons from 'react-native-vector-icons/Ionicons';
 import MainScreen from '../screens/MainScreen';
 import ListScreen from '../screens/ListScreen';
 import FAQScreen from '../screens/FAQScreen';
-import SearchScreen from '../screens/SearchSrceen';
+import SearchScreen from '../screens/SearchScreen';
 import SettingsScreen from '../screens/SettingsScreen';
+import HeaderLogo from './HeaderLogo';
 
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
 
+// Stack navigation for Main, List, and FAQ screen
 function MainStackNavigator() {
   return (
-    <Stack.Navigator>
-      <Stack.Screen name="MainTab" component={MainScreen} options={{ headerShown: false}}/>
-      <Stack.Screen name="List" component={ListScreen} options={{ headerShown: false}}/>
-      <Stack.Screen name="FAQDetail" component={FAQScreen} options={{ headerShown: false}}/>
+    <Stack.Navigator screenOptions={{headerShown: false}}>
+      <Stack.Screen name="Main" component={MainScreen}/>
+      <Stack.Screen name="List" component={ListScreen}/>
+      <Stack.Screen name="FAQDetail" component={FAQScreen} initialParams={{ fromScreen: 'List'}}/>
     </Stack.Navigator>
   );
+}
+
+// Stack navigation fro Search and FAQ screen
+function SearchStackNavigator() {
+  return (
+    <Stack.Navigator screenOptions={{headerShown: false}}>
+      <Stack.Screen name="Search" component={SearchScreen}/>
+      <Stack.Screen name="FAQDetail" component={FAQScreen} initialParams={{ fromScreen: 'Search'}}/>
+    </Stack.Navigator>
+  )
 }
 
 export default function NavBar() {
@@ -29,9 +41,9 @@ export default function NavBar() {
         tabBarIcon: ({ focused, color, size }) => {
           let iconName;
 
-          if (route.name === 'Main Tab') {
+          if (route.name === 'HomeTab') {
             iconName = focused ? 'home' : 'home-outline';
-          } else if (route.name === 'Search') {
+          } else if (route.name === 'SearchTab') {
             iconName = focused ? 'search' : 'search-outline';
           } else if (route.name === 'Settings') {
             iconName = focused ? 'settings' : 'settings-outline';
@@ -41,12 +53,24 @@ export default function NavBar() {
         },
         tabBarActiveTintColor: 'blue',
         tabBarInactiveTintColor: 'gray',
+        tabBarShowLabel: false,
         tabBarStyle: { paddingBottom: 10, height: 60 },
       })}
     >
-      <Tab.Screen name="Main Tab" component={MainStackNavigator} />
-      <Tab.Screen name="Search" component={SearchScreen} />
-      <Tab.Screen name="Settings" component={SettingsScreen} />
+      <Tab.Screen name="HomeTab" 
+        component={MainStackNavigator} 
+        options={{headerTitle: ()=> <HeaderLogo name="Home"/>}}
+      />
+
+      <Tab.Screen name="SearchTab" 
+        component={SearchStackNavigator} 
+        options={{headerTitle: ()=> <HeaderLogo name="Search"/>}}
+      />
+
+      <Tab.Screen name="Settings" 
+        component={SettingsScreen} 
+        options={{headerTitle: ()=> <HeaderLogo name="Settings"/>}}
+      />
     </Tab.Navigator>
   );
 }

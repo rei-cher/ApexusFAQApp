@@ -1,0 +1,50 @@
+[
+    {
+        "ID": "1440",
+        "lastModified": "Last Modified:09/19/2022",
+        "question": "Can you tell me about the HRSA 340B Program audits?",
+        "answer": "For information on the HRSA 340B Program audits, see the following policy release:https://www.hrsa.gov/sites/default/files/hrsa/opa/audit-clarification-02-08-13.pdf. Information about the audit scope and process are available on the OPA website at:https://www.hrsa.gov/opa/program-integrity"
+    },
+    {
+        "ID": "1474",
+        "lastModified": "Last Modified:08/02/2022",
+        "question": "Can a manufacturer audit a covered entity?",
+        "answer": "Yes, section 340B (a)(5)(C) of the PHS Act allows manufacturers to audit a covered entity to ensure compliance with 340B drug diversion and duplicate discount prohibitions and requires entities to permit manufacturers to audit records related to compliance with these prohibitions.   A manufacturer must first attempt to resolve issues in good faith with the covered entity.   If good faith efforts fail, the manufacturer must submit an audit work plan and reasonable cause justification to HRSA prior to conducting the audit.  For more information, please refer to the 340B Program Policy Release here:https://www.hrsa.gov/sites/default/files/hrsa/opa/manufacturer-audit-clarification-11-21-11.pdf."
+    },
+    {
+        "ID": "1433",
+        "lastModified": "Last Modified:09/14/2020",
+        "question": "I'm new to 340B and need to know some basic resources for how to learn about program compliance. Where should I start?",
+        "answer": "We recommend individuals attend a 340B University session. Registration information is available here:https://www.340bpvp.com/340b-educationThe sessions are free to attend; the stakeholder would just need to get to the meeting. We try to hold these educational events in a variety of locations across the country. Apexus also offers 340B University onDemand, an online version with similar basic content to the live session. Additionally, we would recommend the entity review the tools and resources available here:https://www.340bpvp.com/resource-center/340b-tools. Specific FAQs, available publicly through a keyword search are here:https://www.340bpvp.com/hrsa-faqsA call center, offering confidential answers to 340B questions, is available and supported by experts in a variety of content areas. If one of the questions requires additional expertise to address, the call center specialists will escalate the inquiry to the appropriate expert. Call center information is available here:https://www.340bpvp.com/apexus-answers, and we look forward to helping you with 340B Compliance; please let us know how we can specifically assist you."
+    },
+    {
+        "ID": "1453",
+        "lastModified": "Last Modified:09/14/2020",
+        "question": "What must a covered entity do if it finds 340B non-compliance (during an internal audit or through any other means)?",
+        "answer": "The covered entity must notify impacted manufacturers and attempt in good faith to resolve issues directly with manufacturers and wholesalers. Further, the covered entity must notify the HRSA Office of Pharmacy Affairs in writing of the compliance issue and include the following information: 340B ID; the violation that occurred; scope of the problem; a corrective action plan (CAP) to fix the problem moving forward; a strategy to inform affected manufactures (if applicable); and a plan for financial remedy if repayment is owed. You are encouraged to use the following tool to report the non-compliancehttps://www.340bpvp.com/Documents/Public/340B%20Tools/self-disclosure-to-hrsa-and-manufacturer-template.docxThis information should be mailed to: Health Resources and Services Administration, Office of Pharmacy Affairs, 5600 Fishers Lane, Mail Stop 08W05A, Rockville, MD 20857."
+    },
+    {
+        "ID": "1282",
+        "lastModified": "Last Modified:11/01/2019",
+        "question": "How would a 340B covered entity lose its 340B eligibility?",
+        "answer": "A covered entity that loses eligibility to participate must notify the HRSA Office of Pharmacy Affairs and immediately stop purchasing 340B drugs in the following situations:1) The entity lost the grant funding/designation under which it qualified for 340B Program participation;2) The hospitalâs contract with a state or local government has been terminated or expired;3) The hospital becomes for-profit;4) The hospitalâs disproportionate share adjustment percentage falls below the threshold for that hospital type, as of the mostly recently filed cost report, or a childrenâs hospital that no longer has a CMS 3300 number5) The hospital subject to the group purchasing organization (GPO) prohibition uses a GPO to purchase covered outpatient drugs;6) The entity fails to recertify during annual recertification."
+    },
+    {
+        "ID": "1386",
+        "lastModified": "Last Modified:11/01/2019",
+        "question": "I am currently undergoing a 340B Program audit and am concerned the questions asked by the auditor are outside the scope of the 340B Program. Where do I direct my concerns?",
+        "answer": "Please write to HRSA Office of Pharmacy Affairs with specific information regarding the audit concerns.  This information should be mailed to: Health Resources and Services Administration, Office of Pharmacy Affairs, 5600 Fishers Lane, Mail Stop 08W05A, Rockville, MD 20857 - or send email to HRSA OPA at:340baudit@hrsa.gov"
+    },
+    {
+        "ID": "1504",
+        "lastModified": "Last Modified:11/01/2019",
+        "question": "To what extent is a registered 340B covered entity (parent) is responsible for outpatient facilities (child) it has registered?",
+        "answer": "The covered entity is fully responsible for its registered outpatient facilitiesâ compliance with all 340B Program requirements. The covered entity is also responsible for all contract pharmacy arrangements listed on 340B OPAIS. Audits of 340B covered entities include a covered entityâs outpatient facilities and contract pharmacies."
+    },
+    {
+        "ID": "1539",
+        "lastModified": "Last Modified:01/10/2019",
+        "question": "How does HRSA define the term \"breach\" that is used in the recertification statements? (Ref: \"the covered entity acknowledges its responsibility to contact OPA as soon as reasonably possible if there is a change in 340B eligibility and/or breach by the covered entity of any of the foregoing...\")",
+        "answer": "The term breach in this context refers to an instance of non-compliance with any of the 340B Program requirements. The covered entity upon recertification attests to contact OPA when there is a breach of 340B requirements.  To increase program transparency among all stakeholders and ensure that covered entities can rely on a reasonable threshold to guide consistent and effective self-disclosure decision-making, it is recommended that covered entities define âmaterial breachâ for their organizations and establish a process for self-disclosure in their policies and procedures. For more information visit:https://www.hrsa.gov/opa/self-disclosures/self-disclosure.html"
+    }
+]

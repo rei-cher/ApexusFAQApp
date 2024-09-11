@@ -1,0 +1,68 @@
+[
+    {
+        "ID": "1242",
+        "lastModified": "Last Modified:08/09/2024",
+        "question": "When a covered entity is unable to purchase a covered outpatient drug at a 340B price, may the covered entity subject to the GPO prohibition buy via a GPO?",
+        "answer": "A covered entity that is subject to the GPO prohibition may not use a GPO for covered outpatient drugs at any point in time. However, if a covered entity is unable to purchase a covered outpatient drug at the 340B price, they should first try and work with the manufacturer to obtain the product at the 340B price. If they are still unable to obtain the product at the 340B price, they should then try to obtain the product at WAC. If they are also unable to purchase the product at WAC, entities may use a GPO only if they then immediately notify OPA detailing the covered outpatient drug(s) involved, the manufacturer, and the communication between the parties as to why the product was not available at 340B or WAC, by submitting the HRSA Template Notification Tool: Unavailable 340B Pricehttps://www.340bpvp.com/Documents/Public/340B%20Tools/340B-ceiling-price-unavailable-incorrect-340b-ceiling-price-notification-for-hrsa.pdf. In situations where a product is unavailable at 340B or WAC, and the covered entity can document that all other options have been exhausted, the covered entity should maintain auditable records demonstrating the circumstance, and show they attempted to purchase the product at 340B every time an order was made. Covered entities may not use the fact that they were unable to obtain a product on one day, to then use a GPO for an extended period of time."
+    },
+    {
+        "ID": "1298",
+        "lastModified": "Last Modified:08/02/2022",
+        "question": "Does the GPO Prohibition apply to covered entity owned pharmacies?",
+        "answer": "The GPO prohibition applies to covered entity sites which are registered for the 340B Program. The covered entity should not try to circumvent the GPO Prohibition by accessing GPO purchased drugs via an entity-owned pharmacy or contract pharmacy in a 340B registered location. For additional information, please review: The Statutory Prohibition on Group Purchasing Organization Participation Policy Releasehttps://www.hrsa.gov/sites/default/files/hrsa/opa/prohibition-gpo-participation-02-07-13.pdfThe covered entity is expected to have written policies and procedures and maintain auditable records demonstrating compliance with all 340B Program requirements."
+    },
+    {
+        "ID": "4291",
+        "lastModified": "Last Modified:03/25/2020",
+        "question": "Can Community Health Centers participate in the Prime Vendor Program (PVP) and a group purchasing organization (GPO)?",
+        "answer": "Yes. All covered entities may participate in the PVP, although disproportionate share hospitals, children's hospitals, and freestanding cancer centers that participate in the 340B Program are prohibited from purchasing covered outpatient drugs through a GPO. 340B Prime Vendor participation is voluntary, and there are no restrictions placed on covered entities electing to participate. Most alternative purchasing groups serving 330 grantees and other entities encourage participation in the 340B PVP to ensure members have access to best pricing on pharmaceuticals while offering members their own contract portfolios of medical/surgical, dental, office, and other non-pharmacy supplies, which tend to be complementary to the 340B PVP pharmacy portfolio. On occasion, there may be an alternative purchasing group that does not permit a member to simultaneously access their own contracts and 340B PVP contracts due to existing business relationships with a supply partner. In this situation, the covered entity may be required to notify the alternative purchasing group to cancel its membership before the selected pharmacy wholesaler will load the 340B PVP pricing available to the entity's pharmacy account."
+    },
+    {
+        "ID": "1276",
+        "lastModified": "Last Modified:01/24/2020",
+        "question": "A hospital system owns and controls many hospitals, some of which are 340B participating hospitals. The 340B participating hospitals each have their own 340B Program identification number. The hospital system would like to negotiate prices for drugs used at their hospitals, including those that participate in the 340B Program. Does the above scenario violate the 340B GPO prohibition? That is, does it constitute a group purchasing arrangement?",
+        "answer": "The 340B participating hospitals within the hospital system in this scenario have separate 340B registrations. For the hospitals registered for the 340B Program as a DSH, childrenâs hospital or freestanding cancer hospital, conducting price negotiations for covered outpatient drugs with any other hospital would create a prohibited group purchasing arrangement. The hospital system may negotiate prices for inpatient drugs only."
+    },
+    {
+        "ID": "1669",
+        "lastModified": "Last Modified:01/24/2020",
+        "question": "If my critical access hospital enrolls and participates in the 340B Program, will we have to stop participating in our group purchasing organization (GPO)?",
+        "answer": "No. Under section 340B(a)(4)(N) of the Public Health Service Act, as amended by the Affordable Care Act, the prohibition against participation in GPO arrangements does not apply to critical access hospitals, rural referral centers, or sole community hospitals.  The GPO prohibition only applies to 340B-enrolled disproportionate share hospitals, children's hospitals, and free-standing cancer hospitals."
+    },
+    {
+        "ID": "1678",
+        "lastModified": "Last Modified:01/24/2020",
+        "question": "Our mixed-use area has only inpatients or 340B eligible outpatients.  We do not have any 340B ineligible patients.Â  In this setting where the status of a patient (inpatient vs. outpatient) is not known until replenishment occurs by the split ordering software, and our accumulator splits orders into inpatient GPO and 340B, is it required to start with a WAC inventory?",
+        "answer": "The hospital must keep auditable records demonstrating that accumulation occurs for inpatient GPO or outpatient 340B for eligible patients (as defined by current patient definition guidelines (61Fed. Reg. 55156 (Oct. 24.1996)). A non-GPO outpatient account should be available for replenishment for covered outpatient drugs in the event a 340B product is not available."
+    },
+    {
+        "ID": "1187",
+        "lastModified": "Last Modified:11/01/2019",
+        "question": "What are some examples of contracting approaches that are potential violations of the GPO Prohibition?",
+        "answer": "The following situations are not GPO-prohibition compliant contracting practices: - An individual DSH accessing contracts executed by an IDN, in which it is a member. - A wholesalerâs generic source program (unless offered as a subcontracted solution to the Apexus Generics Program) - A manufacturer extending a discounted price to a group of covered entities (subject to the GPO prohibition) through a wholesaler, other third party or group purchasing arrangement, that is not supported by an individual contract between the 340B covered entity and the manufacturer. Such agreements should be reproducible for review during an audit of compliant 340B operations."
+    },
+    {
+        "ID": "2653",
+        "lastModified": "Last Modified:11/01/2019",
+        "question": "May a Hemophilia Treatment Center (HTC) that is part of a hospital participate in a GPO for outpatient drugs?",
+        "answer": "The answer depends on how the HTC is registered with respect to the hospital.If the HTC is otherwise an eligible entity and registered as such (with a 340B identification number beginning with HM), then it is not subject to the GPO prohibition and may purchase covered outpatient drugs through a GPO arrangement through its HTC 340B ID and account. This is true whether the HTC is within the four walls of a parent hospital subject to the GPO prohibition or located at an off-site outpatient clinic of a hospital subject to the GPO prohibition.  However, in no circumstances may a hospital use the HTCâs GPO to circumvent the GPO prohibition.If the HTC is not registered for the 340B Program as a child site of the hospital, it may use a GPO for covered outpatient drugs provided that it meets all of the following: 1. Is located at a different physical address than the parent; 2. Is not registered on the 340B OPAIS as participating in the 340B Program; 3. Purchases drugs through a separate pharmacy wholesaler account than the 340B participating parent; and 4. The hospital maintains records demonstrating that any covered outpatient drugs purchased through the GPO at the HTC are not utilized or otherwise transferred to the parent hospital or any outpatient facilities registered on 340B OPAIS."
+    },
+    {
+        "ID": "1352",
+        "lastModified": "Last Modified:12/10/2014",
+        "question": "For hospitals subject to the GPO prohibition and using a replenishment model, what accounts should be used to purchase the actual physical inventory (on the shelves)?",
+        "answer": "The accumulation for specific accounts is based upon 340B patient eligibility status, and the hospital must maintain auditable records of its policies, procedures, and transactions. HRSA recognizes that the variety of patient eligibility status categories accumulate to produce corresponding virtual inventories. These accumulations will eventually produce replenishment orders that result in a physical inventory in the mixed-use area that is composed from a variety of contract purchases. Hospitals must maintain auditable records showing that the virtual accumulations are based upon documented 340B patient eligibility status categories."
+    },
+    {
+        "ID": "1174",
+        "lastModified": "Last Modified:11/10/2014",
+        "question": "What constitutes a separate wholesaler account, as referenced in the Policy Notice regarding the GPO prohibition?",
+        "answer": "A âseparate pharmacy wholesaler account than the 340B participating parent,â means that the child site sets up an account with the pharmacy wholesaler that is distinct from the parent site. The account that is set up would be in the name of the child site but could be paid by the parent via a central bank account."
+    },
+    {
+        "ID": "1681",
+        "lastModified": "Last Modified:03/07/2014",
+        "question": "For hospitals subject to the GPO prohibition and using a replenishment model, should accumulation occur to specific account types based upon patient eligibility status?",
+        "answer": "Yes. Accumulation should occur for specific accounts based upon patient eligibility status, and the hospital must maintain auditable records of its policies, procedures, and transactions. For example:1. 340B eligible patients generate accumulation for orders on the 340B outpatient account2. Inpatients generate accumulation for orders on the inpatient GPO account3. 340B ineligible outpatients (or situations where 340B is not available) generate accumulation for orders on an outpatient non-GPO (i.e., Non-340B) account.  PVP participants may access the PVPâs Non 340B contract."
+    }
+]

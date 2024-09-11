@@ -1,0 +1,20 @@
+[
+    {
+        "ID": "2206",
+        "lastModified": "Last Modified:10/16/2015",
+        "question": "Since the court ruling on the orphan drug exclusion on October 14, 2015, what actions should my rural hospital take?",
+        "answer": "The court ruling is available here:https://ecf.dcd.uscourts.gov/cgi-bin/show_public_doc?2014cv1685-29. Covered entities subject to the orphan drug exclusion should consult legal counsel, and HRSA will publish additional details as they become available."
+    },
+    {
+        "ID": "2207",
+        "lastModified": "Last Modified:10/16/2015",
+        "question": "To whom does the orphan drug exclusion apply?",
+        "answer": "The exclusion of drugs with orphan indications applies to free-standing cancer hospitals, rural referral centers, sole community hospitals, and critical access hospitals. The exclusion does not apply to covered entities that meet the 340B Program eligibility requirements and are enrolled under sections 340B(a)(4)(A) through 340B(a)(4)(L) of the PHSA or to a childrenâs hospital described in section 340B(a)(4)(M). Furthermore, if a hospital potentially qualifies under more than one section, such as a 340B(a)(4)(L) disproportionate share hospital and 340B(a)(4)(O) sole community hospital, the hospital selects under which enrollment type it chooses to qualify. During the registration and annual recertification processes, a covered entity certifies that it meets the requirements for such an enrollment type."
+    },
+    {
+        "ID": "2210",
+        "lastModified": "Last Modified:10/16/2015",
+        "question": "What is an orphan drug?",
+        "answer": "A drug is designated by the FDA as \"a drug for a rare disease or condition\" pursuant to section 526 of the FFDCA at the request of the sponsor, if FDA finds that the drug is being or will be investigated for a rare disease or condition and, if approved by FDA, the approval will be for that disease or condition. 21 U.S.C. 360bb(a)(1). This designation is referred to as orphan-drug designation. 21 CFR 316.24. The orphan drug designation provides a number of incentives for the development of the orphan drug for the particular disease or condition."
+    }
+]

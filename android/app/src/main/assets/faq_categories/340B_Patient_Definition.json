@@ -1,0 +1,104 @@
+[
+    {
+        "ID": "1538",
+        "lastModified": "Last Modified:08/23/2023",
+        "question": "What are elements to consider in development of a tracking system for the use of 340B drugs in a mixed-use setting?",
+        "answer": "Based on the practice of 340B covered entities, the following are suggested elements to consider in development of a tracking system for use of 340B drugs in a mixed-use setting:1. Outpatient status - hospital billing reports or admission/discharge/transfer reports with date/time stamp2. Qualified service - patient location/service information from hospital billing reports with date/time stamp3. Medication(s) used - corresponding copies of pharmacy orders with 11-digit NDC information, amount dispensed/administered as well as prescriber4. Medication administration or dispensing time while patient was classified as outpatient (depending on what covered entity has defined in policies and procedures as time of patient status determination for 340B purposes). Examples include hospital billing reports, medication administration record, etc.This list is not all-inclusive, and may or may not be applicable based upon the unique situation of any particular entity. The elements included should support adherence to 340B Program requirements and must be clearly auditable. A combination of elements is recommended, as opposed to using any one factor individually."
+    },
+    {
+        "ID": "1375",
+        "lastModified": "Last Modified:08/02/2022",
+        "question": "May 340B drugs be used for individuals who are partners of patients being treated for an STD at a 340B covered entity?",
+        "answer": "STD partner therapy may be 340B eligible to the extent that they are patients of the covered entity. More information on HRSAâs patient definition guidance can be found athttps://www.hrsa.gov/sites/default/files/hrsa/opa/patient-entity-eligibility-10-24-96.pdf."
+    },
+    {
+        "ID": "1442",
+        "lastModified": "Last Modified:08/02/2022",
+        "question": "May providers that have admitting privileges at our 340B participating hospital be considered eligible providers under the \"other arrangements\" provision of patient definition?",
+        "answer": "Covered entities should consider all aspects of patient definition in order to use 340B drugs.https://www.hrsa.gov/sites/default/files/hrsa/opa/patient-entity-eligibility-10-24-96.pdfCovered entities should consider whether the provider has covered entity admitting privileges in providing health care services to a patient of the covered entity such that the responsibility for the care provided remains with the covered entity. A non-covered entity providerâs admitting privileges to treat persons at a covered entity hospital alone is not sufficient to demonstrate that any person treated by that provider is a patient of the covered entity hospital for 340B Program purposes. Covered entities should address how they handle providers with privileges in their written policies and procedures."
+    },
+    {
+        "ID": "1487",
+        "lastModified": "Last Modified:08/02/2022",
+        "question": "Under what circumstances may our 340B hospital use 340B drugs for patients served by our Accountable Care Organization (ACO) partners?",
+        "answer": "The inclusion of a covered entity in an ACO does not automatically make individuals receiving services from the ACO patients of the covered entity for 340B Program purposes. All individuals receiving 340B drugs must be eligible patients of the covered entity and should adhere to 340B patient definition guidelines.For more information, please review OPA Accountable Care Organizations Policy Release, 2012-02, available at:https://www.hrsa.gov/sites/default/files/hrsa/opa/accountable-care-05-23-2012.pdf"
+    },
+    {
+        "ID": "1593",
+        "lastModified": "Last Modified:08/02/2022",
+        "question": "What details are expected in a contract between a private physician and a hospital to ensure that the patients, seen by the physician âunder contract with the hospital,â are 340B eligible? Must payments be involved?",
+        "answer": "HRSA recommends that such contracts would be written to include the provision of services where the entity maintains records of the individualâs health care and the responsibility for care provided remains with the covered entity. For more information, please review the 340B Patient Definition final notice in the Federal Register found here:https://www.hrsa.gov/sites/default/files/hrsa/opa/patient-entity-eligibility-10-24-96.pdf"
+    },
+    {
+        "ID": "1642",
+        "lastModified": "Last Modified:08/02/2022",
+        "question": "What is the HRSA definition of a patient for 340B purposes?",
+        "answer": "An individual is a patient of a 340B covered entity (with the exception of State-operated or funded AIDS drug purchasing assistance programs) only if:â¢the covered entity has established a relationship with the individual, such that the covered entity maintains records of the individual's health care; andâ¢the individual receives health care services from a health care professional who is either employed by the covered entity or provides health care under contractual or other arrangements (e.g. referral for consultation) such that responsibility for the care provided remains with the covered entity; andâ¢the individual receives a health care service or range of services from the covered entity which is consistent with the service or range of services for which grant funding or Federally-qualified health center look-alike status has been provided to the entity. Disproportionate share hospitals are exempt from this requirement.An individual will not be considered a patient of the covered entity if the only health care service received by the individual from the covered entity is the dispensing of a drug or drugs for subsequent self-administration or administration in the home setting.Exception: Individuals registered in a State-operated or funded AIDS Drug Assistance Program (ADAP) that receives Federal Ryan White funding ARE considered patients of the participant ADAP if so registered as eligible by the State program.For more information: Final Notice Regarding Section 602 of the Veterans Health Care Act of 1992 Patient and Entity Eligibility (https://www.hrsa.gov/sites/default/files/hrsa/opa/patient-entity-eligibility-10-24-96.pdf)"
+    },
+    {
+        "ID": "1372",
+        "lastModified": "Last Modified:09/30/2020",
+        "question": "Must hospitals be able to tie the use of anesthesia gases to a patient if they are purchased under the 340B Drug Pricing Program?",
+        "answer": "Yes. The hospital is prohibited from diverting 340B drugs to ineligible patients and should be able to document meeting all aspects of the 340B patient definition in order to use 340B drugs. In the case of anesthesia gases purchased through the 340B Program, if hospitals use them in mixed-use settings, they must either have a physically separate inventory or have an auditable accounting mechanism that can show the precise amounts given to every individual patient receiving 340B gases. HRSA has the authority to audit covered entities for compliance with 340B requirements (Section 340B (a)(5)(C) of the PHSA)."
+    },
+    {
+        "ID": "1384",
+        "lastModified": "Last Modified:09/30/2020",
+        "question": "If a 340B covered entity is part of an umbrella company structure and the providers are employed by a different company under the same umbrella structure, can they still prescribe 340B drugs on behalf of the covered entity?",
+        "answer": "Consider whether the health care provider is either employed by the covered entity or provides health care under contractual or other arrangements (e.g. referral for consultation) such that responsibility for the care provided remains with the covered entity. 340B drugs may be used provided all 340B program requirements are met."
+    },
+    {
+        "ID": "1423",
+        "lastModified": "Last Modified:09/30/2020",
+        "question": "What is a compliant way to utilize 340B anesthesia gases in a mixed-use setting?",
+        "answer": "340B covered entities are responsible for maintaining auditable records which demonstrate that 340B drugs, including gases, are only provided to 340B eligible patients. As a best practice, standard operating procedures would address calculation of the amount of anesthesia gas used, the basis for determining the amount replenished, and the ability to ensure 340B drugs are tracked to specific eligible patients through auditable records.Two operational options for entities subject to the GPO prohibition to consider are to: maintain a separate and distinct physical inventory for inpatients (GPO) and 340B eligible outpatients (340B), or utilize a central WAC account to make an initial purchase of product to later be replenished for inpatients (with inpatient GPO) or for 340B eligible outpatients (with 340B)."
+    },
+    {
+        "ID": "1435",
+        "lastModified": "Last Modified:09/30/2020",
+        "question": "Are employees of a covered entity eligible to receive 340B drugs?",
+        "answer": "Covered entities may only distribute 340B drugs to their employees who are eligible patients of the covered entity meeting all 340B program requirements. The 340B Program is limited to patients of the covered entity and has never been a general employee pharmacy benefit or self-insured organization pharmacy benefit. Evidence of an employer relationship or insurer relationship alone is insufficient to determine 340B patient eligibility. Covered entities should document in policies and procedures and maintain auditable records."
+    },
+    {
+        "ID": "1493",
+        "lastModified": "Last Modified:09/30/2020",
+        "question": "If we refer a patient to an outside clinic, can we fill their prescriptions from our 340B clinic?",
+        "answer": "A covered entity may refer an individual for consultation to an outside clinic not registered for the 340B Program and consider that patient 340B eligible if the individual receives health care from a health care professional who is either employed by the covered entity or provides health care under contractual or other arrangements (e.g., referral for consultation) such that responsibility for the care provided remains with the covered entity (61 Fed. Reg. 55156 (October 24, 1996)). If the covered entity can document that it retained responsibility for the health care services provided to the referred individual, then that individual may be eligible to receive 340B drugs from the covered entity. How a covered entity counts referrals under the 340B Program should be addressed in their written policies and procedures."
+    },
+    {
+        "ID": "1526",
+        "lastModified": "Last Modified:09/30/2020",
+        "question": "Are covered entities permitted to determine inpatient vs. outpatient status?",
+        "answer": "Yes. Covered entities may determine inpatient vs. outpatient status such that the determination is in compliance with all 340B Program requirements. Decisions regarding inpatient and outpatient status must be auditable, transparent, and consistently followed. Covered entities should establish written policies and procedures specific to inpatient and outpatient designations and be able to demonstrate compliance with this policy."
+    },
+    {
+        "ID": "1535",
+        "lastModified": "Last Modified:09/30/2020",
+        "question": "Does the 340B discount apply to Medicaid patients?",
+        "answer": "Payer status is not a determining factor for 340B patient eligibility. In other words, a patient is not disqualified from being a 340B eligible patient due to their payer status (third party payer, Medicare, Medicaid, uninsured, etc.). However, when a covered entity is providing 340B drugs to its Medicaid patients, the covered entity must prevent duplicate discounts. Covered entities choosing to use 340B drugs for Medicaid patients must provide the HRSA Office of Pharmacy Affairs with the National Provider Identifiers (NPIs) or Medicaid provider numbers (MPNs) used to bill Medicaid for 340B drugs by listing them on the Medicaid Exclusion File. Covered entities should also follow state billing requirements. For more information and an educational tutorial about Medicaid duplicate discounts, please visit:http://www.hrsa.gov/opa/programrequirements/medicaidexclusion/index.html."
+    },
+    {
+        "ID": "1559",
+        "lastModified": "Last Modified:09/30/2020",
+        "question": "May a hospital use 340B-priced drugs in mixed-use settings, such as a surgery department, where both inpatients and outpatients are treated? If so, what if the hospital cannot track which drugs are used for inpatients and which ones are used for outpatients?",
+        "answer": "A hospital may use 340B drugs for eligible patients. The hospital must develop appropriate tracking systems to ensure that covered outpatient drugs purchased through the 340B Program are only used for eligible outpatients. It is the responsibility of the hospital to ensure appropriate safeguards are in place to protect against diversion. If a hospital is unable to implement an effective tracking system, it should not use 340B drugs in that setting."
+    },
+    {
+        "ID": "1563",
+        "lastModified": "Last Modified:09/30/2020",
+        "question": "Can 340B drugs be used for discharge prescriptions?",
+        "answer": "340B drugs can be used for discharge prescriptions to the extent that the drugs are for outpatient use. Whether a drug qualifies as outpatient and the individual meets the definition of patient depends upon the factual circumstances surrounding the care of that particular individual. If a covered entity uses 340B drugs, it should be able to explain why the covered entity is responsible for the use of the drugs on an outpatient basis and have auditable records that demonstrate compliance with 340B Program requirements"
+    },
+    {
+        "ID": "1565",
+        "lastModified": "Last Modified:09/30/2020",
+        "question": "Is a covered entity grantee limited to using or prescribing drugs that address the services or range of services for which grant funding was received?",
+        "answer": "The 340B Program does not limit the drugs a covered entity can use or prescribe; however, 340B drugs may only be provided to individuals who are patients of the covered entity grantee. All components of the 340B patient definition (61 Fed. Reg. 55156 (October 24, 1996)) should be considered, including the provision that the individual receives a health care service or range of services from the covered entity which is consistent with the service or range of services for which grant funding or Federally-qualified health center look-alike status designation has been provided to the entity."
+    },
+    {
+        "ID": "1599",
+        "lastModified": "Last Modified:09/30/2020",
+        "question": "When there is an individual who is an eligible patient of two different 340B covered entities, which entity should claim that individual as a patient?",
+        "answer": "To the extent that an individual qualifies as a patient of both covered entities, HRSA expects the entities to resolve the issue in good faith. In cases where a covered entity purchased and dispensed a 340B drug to an individual, no other covered entity is permitted to replenish or otherwise assert credit. Covered entities that utilize replenishment are required to ensure that only one covered entity receives a 340B discount on a particular patient transaction."
+    }
+]

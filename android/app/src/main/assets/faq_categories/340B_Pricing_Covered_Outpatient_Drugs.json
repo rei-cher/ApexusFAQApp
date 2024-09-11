@@ -1,0 +1,92 @@
+[
+    {
+        "ID": "1239",
+        "lastModified": "Last Modified:08/19/2024",
+        "question": "If I notice an incorrect price loaded in OPAIS, how do I correct this?",
+        "answer": "Suggested steps include:1. Check the labeler code on 340B OPAIS (https://340bopais.hrsa.gov/manufacturersearch), and check the Medicaid Drug Rebate Program labeler code (https://data.medicaid.gov/dataset/0ad65fe5-3ad3-5d79-a3f9-7893ded7963a) to help determine if the drug is a covered outpatient drug in the Medicaid Drug Rebate Program and subsequently should have a 340B price.2. Validate the correct price using the 340B OPAIS pricing system:a) Compare the price in OPAIS to the invoice purchase price using the NDC to look up the product in OPAIS.b) Remember the following tips:â¢    Â Â Â Â The OPAIS Pricing Database displays the 340B ceiling price at the unit level; the covered entity may need to multiply the ceiling price by the package size (this might be the total number of mL, tablets, capsules, grams, etc.) in the package purchased.oÂ Â Â Â For Prime Vendor participants, verify the selling price by visiting the password-protected Prime Vendor Program Catalog or 340B & PVP Product Selling Price Lookup tool. Package size information is available.â¢Â Â Â Â Adjust the purchase price for your wholesaler distribution charge/markdown3. If the OPAIS prices do not match, work with the entityâs wholesaler and if not resolved directly with the manufacturer to resolve the pricing issue.4. If necessary, the entity can contact OPA by completing a Template Notification Tool: Unavailable 340B Ceiling Price/Incorrect Ceiling Price for further investigation by OPA.https://www.340bpvp.com/Documents/Public/340B%20Tools/340B-ceiling-price-unavailable-incorrect-340b-ceiling-price-notification-for-hrsa.pdf"
+    },
+    {
+        "ID": "1549",
+        "lastModified": "Last Modified:08/12/2022",
+        "question": "Can a manufacturer place special conditions or restrictions on selling covered drugs to an entity at the 340B price that do not apply to non-340B purchasers?",
+        "answer": "Consistent with section 340B(a)(1) of the PHSA, manufacturers are expected to provide the same opportunity for 340B covered entities and non-340B purchasers to purchase covered outpatient drugs when such drugs are sold through limited distribution or specialty pharmacies. As outlined in the January 2017 CMP final rule, manufacturers have an obligation to ensure that the 340B discount is provided through distribution arrangements made by the manufacturer. A manufacturer may not place limitations or conditions on the sale of covered outpatient drugs to covered entities under the 340B Program.  HRSA issued a policy release clarifying non-discrimination in the Program, which can be found here:https://www.hrsa.gov/sites/default/files/hrsa/opa/non-discrimination-05-23-2012.pdf.Manufacturers may continue to use limited distribution procedures provided that these arrangements follow HRSAâs 340B nondiscrimination policy. If a covered entity alleges it has been overcharged, HRSA will examine whether a manufacturer has submitted an alternate allocation plan to HRSA, whether this plan complies with the 340B nondiscrimination policy, and whether the manufacturer is following its plan."
+    },
+    {
+        "ID": "1337",
+        "lastModified": "Last Modified:08/02/2022",
+        "question": "If a manufacturer determines that it charged in excess of the ceiling price to a covered entity, what is the manufacturer required to do?",
+        "answer": "All manufacturers are required to comply with the statute and all terms of the Pharmaceutical Pricing Agreement, including the obligation to charge covered entities no more than the ceiling price for covered outpatient drugs. HRSA recommends that manufacturers notify the Office of Pharmacy Affairs of the circumstances surrounding the overcharge, results of good faith negotiation, and any refunds issued.  Apexus manages the 340B Prime Vendor Program and offers a return service intended to facilitate the return of funds to the entities. The HRSA Office of Pharmacy Affairs expects stakeholders to work in good faith to resolve any overpayments in accordance with standard business practices. If the stakeholders are unable to resolve the issue, the dispute resolution process should be followed:https://www.hrsa.gov/sites/default/files/hrsa/opa/dispute-resolution-process-12-12-96.pdf."
+    },
+    {
+        "ID": "1367",
+        "lastModified": "Last Modified:09/01/2021",
+        "question": "Is there a specific formulary for the 340B drugs? What drugs are included under the 340B Drug Pricing Program?",
+        "answer": "There is no designated formulary for the 340B Program.  A manufacturer must offer all covered outpatient drugs at or below the 340B ceiling price.  The term covered outpatient drug is defined in section 1927(k) of the Social Security Act. The Centers for Medicare & Medicaid Services provides a list of drugs that are reported by manufacturers under the Medicaid Drug Rebate program and thus subject to a 340B ceiling price, which can be found on its website here:https://data.medicaid.gov/dataset/0ad65fe5-3ad3-5d79-a3f9-7893ded7963a"
+    },
+    {
+        "ID": "1366",
+        "lastModified": "Last Modified:09/14/2020",
+        "question": "What is the procedure used by manufacturers to refund payment to covered entities who are overcharged for 340B drugs?",
+        "answer": "Manufacturers should notify HRSA in writing of their intention to issue a refund. This letter should address which drugs are affected and for what time period. This letter may be made public on the HRSA website. Apexus, the 340B Prime Vendor, has a voluntary program to help manufacturers refund money through a distributor credit to the covered entity's 340B wholesaler account. For more information, please contact the 340B Prime Vendor at:https://www.340bpvp.com/apexus-answersor call Apexus Answers at (888) 340- 2787."
+    },
+    {
+        "ID": "1420",
+        "lastModified": "Last Modified:03/26/2020",
+        "question": "May a manufacturer require only 340B entities to purchase covered outpatient drugs through specialty distribution channels?",
+        "answer": "Consistent with section 340B(a)(1) of the PHSA, manufacturers are expected to provide the same opportunity for 340B covered entities and non-340B purchasers to purchase covered outpatient drugs when such drugs are sold through limited distributors or specialty pharmacies. This extends to the manner in which 340B drugs are made available to covered entities (e.g., direct sales versus through wholesalers, specialty pharmacies, or limited distributors.) Additional information can be found in the following Policy Release (Clarification of Non-Discrimination Policy. Release No. 2011-1.1 (May 23, 2012)).Manufacturers should notify HRSA of its intent to implement a specialty distribution channel to ensure compliance and ensure that entities are aware of the distribution channel for transparency and to limit any disputes."
+    },
+    {
+        "ID": "2686",
+        "lastModified": "Last Modified:03/25/2020",
+        "question": "What is the difference between the ceiling price and the package adjusted price?",
+        "answer": "The 340B ceiling price is defined in statute (section 340B(a)(1) of the Public Health Service Act) and implementing regulations (42 CFR Â§10.3 and Â§10.10(a)). The 340B ceiling price is the maximum statutory price a manufacturer can charge a covered entity for the purchase of a covered outpatient drug and is equal to the average manufacturer price (AMP) from the preceding calendar quarter for the smallest unit of measure minus the unit rebate amount (URA). HRSA calculates the 340B ceiling price at six decimal places and then subsequently publishes the 340B ceiling price in the 340B OPAIS rounded to two decimal places.HRSA also publishes a package adjusted price for each covered outpatient drug in the 340B OPAIS. HRSA publishes the package adjusted price as a courtesy to assist manufacturers and covered entities in evaluating the 340B ceiling price. The package adjusted price is calculated using the 340B ceiling price, the package size (PS), and the case pack size (CSP) for a covered outpatient drug, and represents the price that the covered entity actually pays for the drug.Package Adjusted Price = (AMP â URA)* PS *CSPThe PS is the quantity of a unit of measure contained in one package sold by a manufacturer under a particular 11 digit NDC. The CSP is the number of salable units in the shipping container. HRSA publishes the package adjusted price in 340B OPAIS rounded to two decimal places.The exception to this rounding convention occurs when the 340B ceiling price is less than $0.01.  In these cases, the 340B ceiling price rounded to two decimal places will be multiplied by the package size and case pack size to equal the package adjusted price.  This is consistent with the Final Rule."
+    },
+    {
+        "ID": "1229",
+        "lastModified": "Last Modified:01/24/2020",
+        "question": "What is HRSAâs âpenny-pricingâ policy regarding 340B ceiling prices?",
+        "answer": "When the 340B ceiling price calculation results in an amount less than $0.01, the 340B ceiling price will be $0.01. For more information, please visit the 340B Ceiling Price and Civil Monetary Penalties final rule (82 FR 1210, January 5, 2017) at:https://www.gpo.gov/fdsys/pkg/FR-2017-01-05/pdf/2016-31935.pdf."
+    },
+    {
+        "ID": "1265",
+        "lastModified": "Last Modified:01/24/2020",
+        "question": "Which manufacturers and drugs are subject to 340B pricing, and can participating manufacturers offer only a subset of the drugs they manufacturer at 340B prices?",
+        "answer": "Manufacturers who participate in Medicaid are required to participate in the 340B Program and provide a 340B ceiling price for all covered outpatients drugs.  To view which manufacturers participate in the 340B Program, please visit:https://340bopais.hrsa.gov/searchlanding.  A 340B participating manufacturer must provide a 340B price on all the covered outpatient drugs that meet the definition in section 1927(k) of the Social Security Act."
+    },
+    {
+        "ID": "1310",
+        "lastModified": "Last Modified:01/24/2020",
+        "question": "How is the 340B ceiling price calculated?",
+        "answer": "Pursuant to section 340B(a)(1) of the Public Health Service Act and the 340B Ceiling Price and Civil Monetary Penalty final rule (82 FR 1210, January 5, 2017), the 340B ceiling price for a covered outpatient drug is equal to the Average Manufacturer Price (AMP) from the preceding calendar quarter for the smallest unit of measure minus the Unit Rebate Amount (URA). The 340B ceiling price is calculated using six decimal places and HRSA publishes the price rounded to two decimal places."
+    },
+    {
+        "ID": "2385",
+        "lastModified": "Last Modified:01/24/2020",
+        "question": "Who is tasked with imposing civil monetary penalties against manufacturers who knowingly and intentionally overcharge a covered entity?",
+        "answer": "Pursuant to a delegation of authority, the HHS Office of the Inspector General (OIG) has the authority to impose CMPs utilizing the definitions, standards, and procedures under 42 CFR Parts 1003 and 1005, as applicable. For additional information, see the delegation of authority Federal Register Notice athttps://www.gpo.gov/fdsys/pkg/FR-2017-01-05/pdf/2016-31944.pdf(82 FR 1356, January 5, 2017)."
+    },
+    {
+        "ID": "2558",
+        "lastModified": "Last Modified:01/24/2020",
+        "question": "If a manufacturer determines it overcharged a covered entity for a covered outpatient drug, how soon must the manufacturer refund the affected covered entity?",
+        "answer": "HRSA requires manufacturers to refund covered entities on all drug overcharges and should work with the covered entities in good faith to make repayments.  Specifically for new drugs and as outlined in the CMP final rule, manufacturers are required to calculate the actual 340B ceiling price and offer to refund or credit the covered entity the difference between the estimated 340B ceiling price and the actual 340B ceiling price within 120 days of the determination by the manufacturer that an overcharge occurred.  For overcharges on other drugs, HRSA expects repayment procedures to follow similar processes that align with standard business practice and be documented in the manufacturerâs policies and procedures."
+    },
+    {
+        "ID": "1188",
+        "lastModified": "Last Modified:11/01/2019",
+        "question": "How soon after a drug is approved by the FDA is 340B pricing available?",
+        "answer": "The 340B price is available for a new covered outpatient drug as of the date the drug is first available for sale. For the purposes of the 340B Program, manufacturers must estimate the ceiling price using the methodology described in the 340B Ceiling Price and Civil Monetary Penalties (CMP) final rule (82 FR 1210, January 5, 2017), which requires a new drugâs ceiling price to be estimated using wholesale acquisition cost minus the appropriate rebate percentage (i.e., 23.1% for most single-source and innovator drugs, 17.1% for clotting factors and 13% for generics) until sufficient data is available to calculate the actual 340B ceiling price of the new drug.Once the average manufacturer price (AMP) is known, and no later than the fourth quarter that the drug is available for sale, manufacturers must calculate the actual 340B ceiling price based on the AMP. For more information on new drug price estimation, please review the 340B Ceiling Price and CMP final rule at:https://www.gpo.gov/fdsys/pkg/FR-2017-01-05/pdf/2016-31935.pdf."
+    },
+    {
+        "ID": "1255",
+        "lastModified": "Last Modified:11/01/2019",
+        "question": "Does HRSA provide a list of the prices for 340B drugs?",
+        "answer": "Section 340B(d)(1)(B) of the Public Health Service Act requires HRSA to collect information from manufacturers in order to verify the accuracy of 340B ceiling prices, and then make ceiling prices available only to covered entities.  The pricing component of the 340B OPAIS is a secure, web-based application and only allows authorized users from manufacturers and covered entities access the system to perform assigned functions."
+    },
+    {
+        "ID": "1293",
+        "lastModified": "Last Modified:11/01/2019",
+        "question": "Are 340B prices confidential?",
+        "answer": "The agreement between HRSA and CMS requires confidentiality on the pricing data submitted to CMS by manufacturers. Prices in the market are not confidential although contractual arrangements between, for example, manufacturers and distributors or other customers may restrict the availability of price data."
+    }
+]
