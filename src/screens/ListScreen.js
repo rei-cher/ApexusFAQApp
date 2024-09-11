@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, FlatList, TouchableOpacity, StyleSheet, Platform } from 'react-native';
+import { View, Text, FlatList, TouchableOpacity, StyleSheet } from 'react-native';
+import { globalStyle } from '../assets/globalStyle';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import RNFS from 'react-native-fs';
@@ -47,10 +48,10 @@ export default function ListScreen() {
       style={styles.faqItem}
       onPress={() => navigation.navigate('FAQDetail', { faqId: item.ID, categoryId: route.params.categoryId  })}
     >
-      <Text style={styles.question_title}>Question:</Text>
-      <Text style={styles.question}>{item.question}</Text>
-      <Text style={styles.answer_title}>Answer:</Text>
-      <Text style={styles.answer}>{item.answer.slice(0, 50)}... <Text style={styles.continueReading}>Continue Reading</Text></Text>
+      <Text style={[globalStyle.subheading, {textAlign: 'left'}]}>Question:</Text>
+      <Text style={globalStyle.text}>{item.question}</Text>
+      <Text style={[globalStyle.subheading, {textAlign: 'left'}]}>Answer:</Text>
+      <Text style={globalStyle.text}>{item.answer.slice(0, 150)}... <Text style={styles.continueReading}>{'\n'}Continue Reading</Text></Text>
     </TouchableOpacity>
   );
 
@@ -60,7 +61,7 @@ export default function ListScreen() {
         <Ionicons name="arrow-back" size={24} color="black" />
       </TouchableOpacity>
 
-      <Text style={styles.title}>{route.params.title}</Text>
+      <Text style={globalStyle.heading}>{route.params.title}</Text>
       <FlatList
         data={filteredFAQs}
         keyExtractor={(item) => item.ID}
@@ -76,37 +77,15 @@ const styles = StyleSheet.create({
     padding: 20,
     backgroundColor: '#f5f5f5'
   },
-  title: {
-    fontSize: 26,
-    marginBottom: 20,
-    fontWeight: '900',
-    textAlign: 'center'
-  },
   faqItem: {
     padding: 15,
-    backgroundColor: '#bfbfbf',
+    backgroundColor: '#d9dbde',
     marginBottom: 10,
     borderRadius: 15,
   },
-  question_title: {
-    fontSize: 18,
-    fontWeight: '700',
-    paddingBottom: 5
-  },
-  question: {
-    fontSize: 16,
-  },
-  answer_title: {
-    fontSize: 18,
-    fontWeight: '700',
-    paddingTop: 5,
-    paddingBottom: 5
-  },
-  answer: {
-    fontSize: 16,
-    color: '#666',
-  },
   continueReading: {
+    fontFamily: 'NunitoSans',
+    fontWeight: '700',
     color: '#007BFF',
   },
   backButton: {

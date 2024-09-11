@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, FlatList, TouchableOpacity, StyleSheet, Dimensions } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
+import { globalStyle } from '../assets/globalStyle';
 
 const categories = [
   { id: '1', title: '340B Eligibility/Registration', filename: '340B_Eligibility_Requirements_Registration.json' },
@@ -27,13 +28,13 @@ export default function MainScreen() {
       style={styles.category}
       onPress={() => navigation.navigate('List', { categoryId: item.id, filename: item.filename, title: item.title })} // Pass filename along with categoryId
     >
-      <Text style={styles.categoryText}>{item.title}</Text>
+      <Text style={globalStyle.subheading}>{item.title}</Text>
     </TouchableOpacity>
   );
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>FAQ Categories</Text>
+      <Text style={globalStyle.heading}>FAQ Categories</Text>
       <FlatList
         data={categories}
         keyExtractor={(item) => item.id}
@@ -51,13 +52,6 @@ const styles = StyleSheet.create({
     paddingHorizontal: 8,
     paddingTop: 20,
   },
-  title: {
-    textAlign: 'center',
-    fontSize: 28,
-    fontWeight: '600',
-    marginBottom: 20,
-    color: '#333',
-  },
   category: {
     backgroundColor: '#fff',
     padding: 20,
@@ -72,11 +66,5 @@ const styles = StyleSheet.create({
     shadowOpacity: 0.2,
     shadowRadius: 5,
     elevation: 3,
-  },
-  categoryText: {
-    textAlign: 'center',
-    fontSize: 18,
-    fontWeight: '500',
-    color: '#333',
-  },
+  }
 });
