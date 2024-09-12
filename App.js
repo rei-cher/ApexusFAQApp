@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import NavBar from './src/components/NavBar';
+import { ThemeProvider } from './src/helpers/ThemeContext';
 import SplashScreen from 'react-native-splash-screen';
 
 export default function App() {
@@ -15,8 +16,10 @@ export default function App() {
   }, [])
 
   return (
-    <NavigationContainer>
-      <NavBar />
-    </NavigationContainer>
+    <ThemeProvider>
+      <NavigationContainer>
+        <NavBar />
+      </NavigationContainer>  
+    </ThemeProvider>
   );
 }

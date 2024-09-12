@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
 import { View, Text, Switch, StyleSheet } from 'react-native';
+import { ThemeContext } from '../helpers/ThemeContext';
 
 export default function SettingsScreen() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const { isDarkMode, toggleDarkMode } = useContext(ThemeContext);
 
   return (
-    <View style={[styles.container, { backgroundColor: isDarkMode ? '#333' : '#fff' }]}>
+    <View style={styles.container}>
       <Text style={styles.logo}>Apexus</Text>
       <Text style={styles.date}>Today's Date: {new Date().toLocaleDateString()}</Text>
       <Text style={styles.version}>App Version: 1.0.0</Text>
@@ -15,7 +16,7 @@ export default function SettingsScreen() {
         <Text style={styles.switchLabel}>Dark Mode</Text>
         <Switch
           value={isDarkMode}
-          onValueChange={() => setIsDarkMode(!isDarkMode)}
+          onValueChange={toggleDarkMode}
         />
       </View>
     </View>

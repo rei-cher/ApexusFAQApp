@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { View, Text, FlatList, TouchableOpacity, StyleSheet, Dimensions } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { globalStyle } from '../assets/globalStyle';
+import { ThemeContext } from '../helpers/ThemeContext';
 
 const categories = [
   { id: '1', title: '340B Eligibility/Registration', filename: '340B_Eligibility_Requirements_Registration.json' },
@@ -20,21 +21,27 @@ const categories = [
 
 const screenWidth = Dimensions.get('window').width;
 
+
 export default function MainScreen() {
   const navigation = useNavigation();
+  const { isDarkMode } = useContext(ThemeContext);
+
+  console.log('Dark Mode:', isDarkMode);
+
+  const setGlobalStyle = globalStyle(isDarkMode);
 
   const renderCategory = ({ item }) => (
     <TouchableOpacity
       style={styles.category}
       onPress={() => navigation.navigate('List', { categoryId: item.id, filename: item.filename, title: item.title })} // Pass filename along with categoryId
     >
-      <Text style={globalStyle.subheading}>{item.title}</Text>
+      <Text style={setGlobalStyle.subheading}>{item.title}</Text>
     </TouchableOpacity>
   );
 
   return (
-    <View style={styles.container}>
-      <Text style={globalStyle.heading}>FAQ Categories</Text>
+    <View style={setGlobalStyle.container}>
+      <Text style={setGlobalStyle.heading}>FAQ Categories</Text>
       <FlatList
         data={categories}
         keyExtractor={(item) => item.id}
@@ -48,7 +55,7 @@ export default function MainScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#f5f5f5',
+    backgroundColor: isDarkMode ? "#fff" : "#000",
     paddingHorizontal: 8,
     paddingTop: 20,
   },

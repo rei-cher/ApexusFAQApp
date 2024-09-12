@@ -1,9 +1,10 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import { View, Text, FlatList, TouchableOpacity, StyleSheet } from 'react-native';
 import { globalStyle } from '../assets/globalStyle';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import RNFS from 'react-native-fs';
+import { ThemeContext } from '../helpers/ThemeContext';
 
 export default function ListScreen() {
   const route = useRoute();
@@ -14,6 +15,10 @@ export default function ListScreen() {
 
   const [filteredFAQs, setFilteredFAQs] = useState([]);
   const [loading, setLoading] = useState(true);
+
+  const { isDarkMode } = useContext(ThemeContext);
+
+  const setGlobalStyle = globalStyle(isDarkMode);
 
   useEffect(() => {
     // Fetch the corresponding JSON file from the assets folder
@@ -48,10 +53,10 @@ export default function ListScreen() {
       style={styles.faqItem}
       onPress={() => navigation.navigate('FAQDetail', { faqId: item.ID, categoryId: route.params.categoryId, fromScreen: 'List' })}
     >
-      <Text style={[globalStyle.subheading, {textAlign: 'left'}]}>Question:</Text>
-      <Text style={globalStyle.text}>{item.question}</Text>
-      <Text style={[globalStyle.subheading, {textAlign: 'left'}]}>Answer:</Text>
-      <Text style={globalStyle.text}>{item.answer.slice(0, 100)}... <Text style={styles.continueReading}>{'\n'}Continue Reading</Text></Text>
+      <Text style={[setGlobalStyle.subheading, {textAlign: 'left'}]}>Question:</Text>
+      <Text style={setGlobalStyle.text}>{item.question}</Text>
+      <Text style={[setGlobalStyle.subheading, {textAlign: 'left'}]}>Answer:</Text>
+      <Text style={setGlobalStyle.text}>{item.answer.slice(0, 100)}... <Text style={styles.continueReading}>{'\n'}Continue Reading</Text></Text>
     </TouchableOpacity>
   );
 
@@ -61,7 +66,7 @@ export default function ListScreen() {
         <Ionicons name="arrow-back" size={24} color="black" />
       </TouchableOpacity>
 
-      <Text style={globalStyle.heading}>{route.params.title}</Text>
+      <Text style={setGlobalStyle.heading}>{route.params.title}</Text>
       <FlatList
         data={filteredFAQs}
         keyExtractor={(item) => item.ID}

@@ -1,9 +1,10 @@
-import React, {useState, useEffect } from 'react';
+import React, {useState, useEffect, useContext } from 'react';
 import { View, ScrollView, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import { categoryFileMap } from '../helpers/categoryMapping';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import { globalStyle } from '../assets/globalStyle';
+import { ThemeContext } from '../helpers/ThemeContext';
 
 export default function FAQScreen() {
   console.log('=== In FAQScreen ===')
@@ -14,6 +15,10 @@ export default function FAQScreen() {
 
   const [faq, setFaq] = useState(null);
   const [isExpended, setIsExpended] = useState(false);
+
+  const { isDarkMode } = useContext(ThemeContext);
+
+  const setGlobalStyle = globalStyle(isDarkMode);
 
   useEffect(() => {
     console.log('categoryId:', categoryId); // Debugging the categoryId
@@ -71,7 +76,7 @@ export default function FAQScreen() {
 
       <View style={styles.questionContainer}>
         <View style={styles.questionRow}>
-          <Text style={[globalStyle.subheading, {textAlign: 'left', flex: 1}]}>
+          <Text style={[setGlobalStyle.subheading, {textAlign: 'left', flex: 1}]}>
             {isExpended ? faq.question : `${faq.question.slice(0, 50)}...`}
           </Text>
 
@@ -87,7 +92,7 @@ export default function FAQScreen() {
       </View>
 
       <ScrollView style={styles.answerContainer}>
-        <Text style={globalStyle.text}>{faq.answer}</Text>
+        <Text style={setGlobalStyle.text}>{faq.answer}</Text>
       </ScrollView>
 
     </View>
