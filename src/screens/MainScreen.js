@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { View, Text, FlatList, TouchableOpacity, StyleSheet, Dimensions } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
-import { globalStyle } from '../assets/globalStyle';
+import { globalStyle, getColors } from '../assets/globalStyle';
 import { ThemeContext } from '../helpers/ThemeContext';
 
 const categories = [
@@ -24,7 +24,10 @@ const screenWidth = Dimensions.get('window').width;
 
 export default function MainScreen() {
   const navigation = useNavigation();
+  
   const { isDarkMode } = useContext(ThemeContext);
+  
+  const colors = getColors(isDarkMode);
 
   console.log('Dark Mode:', isDarkMode);
 
@@ -32,16 +35,16 @@ export default function MainScreen() {
 
   const renderCategory = ({ item }) => (
     <TouchableOpacity
-      style={styles.category}
+      style={[styles.category, {backgroundColor: colors.containerColor, shadowColor: colors.shadowColor}]}
       onPress={() => navigation.navigate('List', { categoryId: item.id, filename: item.filename, title: item.title })} // Pass filename along with categoryId
     >
-      <Text style={setGlobalStyle.subheading}>{item.title}</Text>
+      <Text style={[setGlobalStyle.subheading, {color: colors.h2Color}]}>{item.title}</Text>
     </TouchableOpacity>
   );
 
   return (
-    <View style={setGlobalStyle.container}>
-      <Text style={setGlobalStyle.heading}>FAQ Categories</Text>
+    <View style={[styles.container, {backgroundColor: colors.backgroundColor}]}>
+      <Text style={[setGlobalStyle.heading, {color: colors.h1Color}]}>FAQ Categories</Text>
       <FlatList
         data={categories}
         keyExtractor={(item) => item.id}
@@ -55,12 +58,10 @@ export default function MainScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: isDarkMode ? "#fff" : "#000",
     paddingHorizontal: 8,
     paddingTop: 20,
   },
   category: {
-    backgroundColor: '#fff',
     padding: 20,
     borderRadius: 12,
     margin: 8,
@@ -68,7 +69,6 @@ const styles = StyleSheet.create({
     height: (screenWidth / 2) - 24,
     justifyContent: 'center',
     alignItems: 'center',
-    shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.2,
     shadowRadius: 5,

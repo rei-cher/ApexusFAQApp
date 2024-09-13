@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from 'react';
 import { View, Text, TouchableOpacity, TextInput, FlatList, StyleSheet } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { categoryFileMap } from '../helpers/categoryMapping';
-import { globalStyle } from '../assets/globalStyle';
+import { globalStyle, getColors } from '../assets/globalStyle';
 import { ThemeContext } from '../helpers/ThemeContext';
 
 export default function SearchScreen() {
@@ -15,6 +15,8 @@ export default function SearchScreen() {
   const { isDarkMode } = useContext(ThemeContext);
 
   const setGlobalStyle = globalStyle(isDarkMode);
+
+  const colors = getColors(isDarkMode);
 
   // Load all FAQs from all categories on initial render
   useEffect(() => {
@@ -46,19 +48,21 @@ export default function SearchScreen() {
 
   const renderFAQ = ({ item }) => (
     <TouchableOpacity
-      style={styles.faqItem}
+      style={[styles.faqItem, {backgroundColor: colors.containerColor}]}
       onPress={() => navigation.navigate('FAQDetail', { faqId: item.ID, categoryId: item.categoryId, fromScreen: 'Search' })}
     >
-      <Text style={[setGlobalStyle.subheading, {textAlign: 'left'}]}>{item.question}</Text>
-      <Text style={setGlobalStyle.text}>{item.answer.slice(0, 100)}...</Text>
+      <Text style={[setGlobalStyle.subheading, {textAlign: 'left', color: colors.h2Color}]}>{item.question}</Text>
+      <Text style={[setGlobalStyle.text, {color: colors.textColor}]}>{item.answer.slice(0, 100)}...</Text>
     </TouchableOpacity>
   );
 
   return (
-    <View style={setGlobalStyle.container}>
+    <View style={[styles.container, {backgroundColor: colors.backgroundColor}]}>
       <TextInput
         style={styles.searchInput}
+        color={colors.h1Color}
         placeholder="Search FAQs..."
+        placeholderTextColor={colors.h1Color}
         value={searchText}
         onChangeText={handleSearch}
       />
@@ -83,11 +87,10 @@ const styles = StyleSheet.create({
     marginBottom: 20,
     paddingLeft: 10,
     borderRadius: 20,
-    fontSize: 20
+    fontSize: 20,
   },
   faqItem: {
     padding: 15,
-    backgroundColor: '#e0e0e0',
     marginBottom: 10,
     borderRadius: 15,
   },

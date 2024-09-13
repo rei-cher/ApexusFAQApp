@@ -5,6 +5,8 @@ export const ThemeContext = createContext();
 export const ThemeProvider = ({ children }) => {
     const [isDarkMode, setIsDarkMode] = useState(false);
 
+    // const isDarkMode = true;
+
     const toggleDarkMode = () => {
         setIsDarkMode(prevMode => !prevMode);
     };

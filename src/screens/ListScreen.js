@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { View, Text, FlatList, TouchableOpacity, StyleSheet } from 'react-native';
-import { globalStyle } from '../assets/globalStyle';
+import { globalStyle, getColors } from '../assets/globalStyle';
 import { useNavigation, useRoute } from '@react-navigation/native';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import RNFS from 'react-native-fs';
@@ -19,6 +19,8 @@ export default function ListScreen() {
   const { isDarkMode } = useContext(ThemeContext);
 
   const setGlobalStyle = globalStyle(isDarkMode);
+
+  const colors = getColors(isDarkMode);
 
   useEffect(() => {
     // Fetch the corresponding JSON file from the assets folder
@@ -50,23 +52,23 @@ export default function ListScreen() {
 
   const renderFAQ = ({ item }) => (
     <TouchableOpacity
-      style={styles.faqItem}
+      style={[styles.faqItem, {backgroundColor: colors.containerColor}]}
       onPress={() => navigation.navigate('FAQDetail', { faqId: item.ID, categoryId: route.params.categoryId, fromScreen: 'List' })}
     >
-      <Text style={[setGlobalStyle.subheading, {textAlign: 'left'}]}>Question:</Text>
-      <Text style={setGlobalStyle.text}>{item.question}</Text>
-      <Text style={[setGlobalStyle.subheading, {textAlign: 'left'}]}>Answer:</Text>
-      <Text style={setGlobalStyle.text}>{item.answer.slice(0, 100)}... <Text style={styles.continueReading}>{'\n'}Continue Reading</Text></Text>
+      <Text style={[setGlobalStyle.subheading, {textAlign: 'left', color: colors.h2Color}]}>Question:</Text>
+      <Text style={[setGlobalStyle.text, {color: colors.textColor}]}>{item.question}</Text>
+      <Text style={[setGlobalStyle.subheading, {textAlign: 'left', color: colors.h2Color}]}>Answer:</Text>
+      <Text style={[setGlobalStyle.text, {color: colors.textColor}]}>{item.answer.slice(0, 100)}... <Text style={styles.continueReading}>{'\n'}Continue Reading</Text></Text>
     </TouchableOpacity>
   );
 
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, {backgroundColor: colors.backgroundColor}]}>
       <TouchableOpacity onPress={() => navigation.goBack()} style={styles.backButton}>
-        <Ionicons name="arrow-back" size={24} color="black" />
+        <Ionicons name="arrow-back" size={24} color={colors.errorColor} />
       </TouchableOpacity>
 
-      <Text style={setGlobalStyle.heading}>{route.params.title}</Text>
+      <Text style={[setGlobalStyle.heading, {color: colors.h1Color}]}>{route.params.title}</Text>
       <FlatList
         data={filteredFAQs}
         keyExtractor={(item) => item.ID}
@@ -80,7 +82,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 20,
-    backgroundColor: '#f5f5f5'
   },
   faqItem: {
     padding: 15,

@@ -1,19 +1,22 @@
 import React, { useContext } from 'react';
 import { View, Text, Switch, StyleSheet } from 'react-native';
 import { ThemeContext } from '../helpers/ThemeContext';
+import { getColors } from '../assets/globalStyle';
 
 export default function SettingsScreen() {
   const { isDarkMode, toggleDarkMode } = useContext(ThemeContext);
 
+  const colors = getColors(isDarkMode);
+
   return (
-    <View style={styles.container}>
-      <Text style={styles.logo}>Apexus</Text>
-      <Text style={styles.date}>Today's Date: {new Date().toLocaleDateString()}</Text>
-      <Text style={styles.version}>App Version: 1.0.0</Text>
-      <Text style={styles.copyright}>Copyright: Pavel Drozdov</Text>
+    <View style={[styles.container, {backgroundColor: colors.backgroundColor}]}>
+      <Text style={[styles.logo, {color: colors.h1Color}]}>Apexus</Text>
+      <Text style={[styles.date, {color: colors.h2Color}]}>Today's Date: {new Date().toLocaleDateString()}</Text>
+      <Text style={[styles.version,{color: colors.h2Color}]}>App Version: 1.0.0</Text>
+      <Text style={[styles.copyright, {color: colors.textColor}]}>Copyright: Pavel Drozdov</Text>
       
       <View style={styles.switchContainer}>
-        <Text style={styles.switchLabel}>Dark Mode</Text>
+        <Text style={[styles.switchLabel, {color: colors.textColor}]}>Dark Mode</Text>
         <Switch
           value={isDarkMode}
           onValueChange={toggleDarkMode}
@@ -51,7 +54,7 @@ const styles = StyleSheet.create({
   },
   switchContainer: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
+    justifyContent: 'space-evenly',
     alignItems: 'center',
   },
   switchLabel: {

@@ -2,19 +2,27 @@ import { StyleSheet } from "react-native";
 
 // Colors for light mode
 const lightModeColors = {
-    backgroundColor: '#ffffff',
-    headingColor: '#000000',
-    subheadingColor: '#333333',
-    textColor: '#666666'
-}
+    backgroundColor: '#F5F5F5',
+    containerColor: '#FFFFFF',
+    h1Color: '#2C3E50',
+    h2Color: '#34495E',
+    textColor: '#7F8C8D',
+    shadowColor: 'rgba(0, 0, 0, 0.1)',
+    errorColor: '#000'
+};
 
-// Colors for dark mode
+// Color for dark mode
 const darkModeColors = {
-    backgroundColor: '#181C14',
-    headingColor: '#ECDFCC',
-    subheadingColor: '#697565',
-    textColor: '#3C3D37'
-}
+    backgroundColor: '#121212',
+    containerColor: '#1E1E1E',
+    h1Color: '#ECF0F1',
+    h2Color: '#BDC3C7',
+    textColor: '#95A5A6',
+    shadowColor: 'rgba(0, 0, 0, 0.6)',
+    errorColor: '#fff'
+};
+
+export const getColors = (isDarkMode) => isDarkMode ? darkModeColors : lightModeColors;
 
 export const globalStyle = (isDarkMode) => {
     const colors = isDarkMode ? darkModeColors : lightModeColors; 
@@ -26,7 +34,6 @@ export const globalStyle = (isDarkMode) => {
             textTransform: 'uppercase',
             fontFamily: 'NunitoSans',
             fontWeight: '800',
-            color: colors.headingColor,
             textAlign: 'center',
             paddingBottom: 10
         },
@@ -52,13 +59,5 @@ export const globalStyle = (isDarkMode) => {
             lineHeight: 20,
             paddingBottom: 10
         },
-
-        //Main screen
-        container: {
-            flex:1,
-            backgroundColor: colors.backgroundColor,
-            paddingHorizontal: 8,
-            paddingTop: 20,
-        }
     });
 };

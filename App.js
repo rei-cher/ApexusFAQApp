@@ -9,7 +9,7 @@ export default function App() {
     // Splash screen for 3 seconds
     const timeout = setTimeout(() => {
       SplashScreen.hide();
-    }, 3000);
+    }, 1000);
 
     // Cleanup the timeout
     return () => clearTimeout(timeout);
