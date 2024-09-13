@@ -52,23 +52,23 @@ export default function ListScreen() {
 
   const renderFAQ = ({ item }) => (
     <TouchableOpacity
-      style={[styles.faqItem, {backgroundColor: colors.containerColor}]}
+      style={[styles.faqItem, {backgroundColor: colors.categoryBackground}]}
       onPress={() => navigation.navigate('FAQDetail', { faqId: item.ID, categoryId: route.params.categoryId, fromScreen: 'List' })}
     >
-      <Text style={[setGlobalStyle.subheading, {textAlign: 'left', color: colors.h2Color}]}>Question:</Text>
-      <Text style={[setGlobalStyle.text, {color: colors.textColor}]}>{item.question}</Text>
-      <Text style={[setGlobalStyle.subheading, {textAlign: 'left', color: colors.h2Color}]}>Answer:</Text>
-      <Text style={[setGlobalStyle.text, {color: colors.textColor}]}>{item.answer.slice(0, 100)}... <Text style={styles.continueReading}>{'\n'}Continue Reading</Text></Text>
+      <Text style={[setGlobalStyle.subheading, {textAlign: 'left', color: colors.heading2}]}>Question:</Text>
+      <Text style={[setGlobalStyle.text, {color: colors.question}]}>{item.question}</Text>
+      <Text style={[setGlobalStyle.subheading, {textAlign: 'left', color: colors.heading2}]}>Answer:</Text>
+      <Text style={[setGlobalStyle.text, {color: colors.answer}]}>{item.answer.slice(0, 100)}... <Text style={styles.continueReading}>{'\n'}Continue Reading</Text></Text>
     </TouchableOpacity>
   );
 
   return (
-    <View style={[styles.container, {backgroundColor: colors.backgroundColor}]}>
+    <View style={[styles.container, {backgroundColor: colors.mainBackground}]}>
       <TouchableOpacity onPress={() => navigation.goBack()} style={styles.backButton}>
-        <Ionicons name="arrow-back" size={24} color={colors.errorColor} />
+        <Ionicons name="arrow-back" size={24} color={colors.backError} />
       </TouchableOpacity>
 
-      <Text style={[setGlobalStyle.heading, {color: colors.h1Color}]}>{route.params.title}</Text>
+      <Text style={[setGlobalStyle.heading, {color: colors.heading1}]}>{route.params.title}</Text>
       <FlatList
         data={filteredFAQs}
         keyExtractor={(item) => item.ID}

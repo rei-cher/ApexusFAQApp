@@ -48,21 +48,21 @@ export default function SearchScreen() {
 
   const renderFAQ = ({ item }) => (
     <TouchableOpacity
-      style={[styles.faqItem, {backgroundColor: colors.containerColor}]}
+      style={[styles.faqItem, {backgroundColor: colors.categoryBackground}]}
       onPress={() => navigation.navigate('FAQDetail', { faqId: item.ID, categoryId: item.categoryId, fromScreen: 'Search' })}
     >
-      <Text style={[setGlobalStyle.subheading, {textAlign: 'left', color: colors.h2Color}]}>{item.question}</Text>
-      <Text style={[setGlobalStyle.text, {color: colors.textColor}]}>{item.answer.slice(0, 100)}...</Text>
+      <Text style={[setGlobalStyle.subheading, {textAlign: 'left', color: colors.question}]}>{item.question}</Text>
+      <Text style={[setGlobalStyle.text, {color: colors.answer}]}>{item.answer.slice(0, 100)}...</Text>
     </TouchableOpacity>
   );
 
   return (
-    <View style={[styles.container, {backgroundColor: colors.backgroundColor}]}>
+    <View style={[styles.container, {backgroundColor: colors.mainBackground}]}>
       <TextInput
         style={styles.searchInput}
-        color={colors.h1Color}
+        color={colors.heading1}
         placeholder="Search FAQs..."
-        placeholderTextColor={colors.h1Color}
+        placeholderTextColor={colors.heading1}
         value={searchText}
         onChangeText={handleSearch}
       />

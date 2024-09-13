@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createStackNavigator } from '@react-navigation/stack';
 import Ionicons from 'react-native-vector-icons/Ionicons';
@@ -9,6 +9,9 @@ import FAQScreen from '../screens/FAQScreen';
 import SearchScreen from '../screens/SearchScreen';
 import SettingsScreen from '../screens/SettingsScreen';
 import HeaderLogo from './HeaderLogo';
+
+import { getColors } from '../assets/globalStyle';
+import { ThemeContext } from '../helpers/ThemeContext';
 
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
@@ -35,9 +38,14 @@ function SearchStackNavigator() {
 }
 
 export default function NavBar() {
+  const { isDarkMode } = useContext(ThemeContext);
+
+  const colors = getColors(isDarkMode);
+
   return (
     <Tab.Navigator
       screenOptions={({ route }) => ({
+        headerStyle:{ backgroundColor: colors.mainBackground},
         tabBarIcon: ({ focused, color, size }) => {
           let iconName;
 
@@ -51,10 +59,10 @@ export default function NavBar() {
 
           return <Ionicons name={iconName} size={size} color={color} />;
         },
-        tabBarActiveTintColor: 'blue',
+        tabBarActiveTintColor: colors.tintColorActive,
         tabBarInactiveTintColor: 'gray',
         tabBarShowLabel: false,
-        tabBarStyle: { paddingBottom: 10, height: 60 },
+        tabBarStyle: { paddingBottom: 10, height: 60, backgroundColor: colors.mainBackground },
       })}
     >
       <Tab.Screen name="HomeTab" 

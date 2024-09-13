@@ -35,16 +35,16 @@ export default function MainScreen() {
 
   const renderCategory = ({ item }) => (
     <TouchableOpacity
-      style={[styles.category, {backgroundColor: colors.containerColor, shadowColor: colors.shadowColor}]}
+      style={[styles.category, {backgroundColor: colors.categoryBackground, shadowColor: colors.shadow}]}
       onPress={() => navigation.navigate('List', { categoryId: item.id, filename: item.filename, title: item.title })} // Pass filename along with categoryId
     >
-      <Text style={[setGlobalStyle.subheading, {color: colors.h2Color}]}>{item.title}</Text>
+      <Text style={[setGlobalStyle.subheading, {color: colors.heading2}]}>{item.title}</Text>
     </TouchableOpacity>
   );
 
   return (
-    <View style={[styles.container, {backgroundColor: colors.backgroundColor}]}>
-      <Text style={[setGlobalStyle.heading, {color: colors.h1Color}]}>FAQ Categories</Text>
+    <View style={[styles.container, {backgroundColor: colors.mainBackground}]}>
+      <Text style={[setGlobalStyle.heading, {color: colors.heading1}]}>FAQ Categories</Text>
       <FlatList
         data={categories}
         keyExtractor={(item) => item.id}

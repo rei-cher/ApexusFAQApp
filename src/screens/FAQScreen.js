@@ -69,17 +69,17 @@ export default function FAQScreen() {
   }
 
   return (
-    <View style={[styles.container, {backgroundColor: colors.backgroundColor}]}>
+    <View style={[styles.container, {backgroundColor: colors.mainBackground}]}>
 
       <TouchableOpacity onPress={handleBackPress} style={styles.backButton}>
-        <Ionicons name="arrow-back" size={24} color={colors.errorColor} />
+        <Ionicons name="arrow-back" size={24} color={colors.backError} />
       </TouchableOpacity>
 
-      <Text style={[styles.lastModified, {color: colors.textColor}]}>{faq.lastModified}</Text>
+      <Text style={[styles.lastModified, {color: colors.text}]}>{faq.lastModified}</Text>
 
-      <View style={[styles.questionContainer, {backgroundColor: colors.containerColor}]}>
+      <View style={[styles.questionContainer, {backgroundColor: colors.questionBackground}]}>
         <View style={styles.questionRow}>
-          <Text style={[setGlobalStyle.subheading, {textAlign: 'left', flex: 1, color: colors.h1Color}]}>
+          <Text style={[setGlobalStyle.subheading, {textAlign: 'left', flex: 1, color: colors.question}]}>
             {isExpended ? faq.question : `${faq.question.slice(0, 50)}...`}
           </Text>
 
@@ -94,8 +94,8 @@ export default function FAQScreen() {
         </View>
       </View>
 
-      <ScrollView style={[styles.answerContainer, {backgroundColor: colors.containerColor}]}>
-        <Text style={[setGlobalStyle.text, {color: colors.h2Color}]}>{faq.answer}</Text>
+      <ScrollView style={[styles.answerContainer, {backgroundColor: colors.answerBackground}]}>
+        <Text style={[setGlobalStyle.text, {color: colors.answer}]}>{faq.answer}</Text>
       </ScrollView>
 
     </View>

@@ -2,24 +2,34 @@ import { StyleSheet } from "react-native";
 
 // Colors for light mode
 const lightModeColors = {
-    backgroundColor: '#F5F5F5',
-    containerColor: '#FFFFFF',
-    h1Color: '#2C3E50',
-    h2Color: '#34495E',
-    textColor: '#7F8C8D',
-    shadowColor: 'rgba(0, 0, 0, 0.1)',
-    errorColor: '#000'
+    mainBackground: '#FFFFFF',
+    categoryBackground: '#F5F5F5',
+    questionBackground: '#FAFAFA',
+    answerBackground: '#E3F2FD',
+    heading1: 'rgba(0, 0, 0, 0.87)',
+    heading2: 'rgba(0, 0, 0, 0.87)',
+    question: 'rgba(0, 0, 0, 0.60)',
+    answer: 'rgba(0, 0, 0, 0.60)',
+    text: 'rgba(0, 0, 0, 0.38)',
+    shadow: 'rgba(0, 0, 0, 0.2)',
+    backError: '#B00020',   
+    tintColorActive: 'black'
 };
 
-// Color for dark mode
+// Colors for dark mode
 const darkModeColors = {
-    backgroundColor: '#121212',
-    containerColor: '#1E1E1E',
-    h1Color: '#ECF0F1',
-    h2Color: '#BDC3C7',
-    textColor: '#95A5A6',
-    shadowColor: 'rgba(0, 0, 0, 0.6)',
-    errorColor: '#fff'
+    mainBackground: '#121212',
+    categoryBackground: '#1D1D1D',
+    questionBackground: '#1D1D1D',
+    answerBackground: '#212121',
+    heading1: '#FFFFFF',
+    heading2: '#FFFFFF',
+    question: 'rgba(255, 255, 255, 0.87)',
+    answer: 'rgba(255, 255, 255, 0.87)',
+    text: 'rgba(255, 255, 255, 0.60)',
+    shadow: 'rgba(0, 0, 0, 1.0)',
+    backError: '#CF6679',   
+    tintColorActive: 'white'
 };
 
 export const getColors = (isDarkMode) => isDarkMode ? darkModeColors : lightModeColors;
