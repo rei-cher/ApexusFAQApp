@@ -1,8 +1,8 @@
-#Apexus FAQ App
+# Apexus FAQ App
 
 Apexus FAQ App is a mobile application designed to provide users with an intuitive and efficient way to browse frequently asked questions (FAQs) on various topics. The app supports light and dark modes, user-friendly navigation, and provides smooth transitions between screens.
 
-##Features
+## Features
 * **FAQ Categories**: Users can explore different categories of FAQs like 340B Eligibility, Pricing, Orphan Drugs, etc.
 
 * **Search Functionality**: Powerful search feature to quickly find relevant questions across all categories.
@@ -49,7 +49,7 @@ Apexus FAQ App is a mobile application designed to provide users with an intuiti
 
    * Displays app version and other information.
 
-##Navigation Structure
+## Navigation Structure
 The app uses a bottom tab navigator to switch between the main sections:
 
 * **Home Tab**: Displays the FAQ categories (MainScreen).
@@ -64,7 +64,7 @@ Each tab has a stack navigator for handling transitions:
 
 * **SearchStackNavigator**: Navigates between search results and FAQ details.
 
-##Theming
+## Theming
 The app supports both light and dark themes, managed globally using the `ThemeContext`:
 
 * **Light Mode**: Bright and clean design, optimized for daytime use.
