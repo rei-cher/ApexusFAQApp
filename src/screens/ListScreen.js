@@ -11,6 +11,7 @@ export default function ListScreen() {
   const navigation = useNavigation();
   const { filename } = route.params;
 
+  //Debug passed params
   console.log(route.params);
 
   const [filteredFAQs, setFilteredFAQs] = useState([]);

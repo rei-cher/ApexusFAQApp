@@ -2,6 +2,7 @@ import React, { useContext } from 'react';
 import { View, Text, Switch, StyleSheet } from 'react-native';
 import { ThemeContext } from '../helpers/ThemeContext';
 import { getColors } from '../assets/globalStyle';
+import { version as appVersion} from '../../package.json'
 
 export default function SettingsScreen() {
   const { isDarkMode, toggleDarkMode } = useContext(ThemeContext);
@@ -12,7 +13,7 @@ export default function SettingsScreen() {
     <View style={[styles.container, {backgroundColor: colors.mainBackground}]}>
       <Text style={[styles.logo, {color: colors.heading1}]}>Apexus</Text>
       <Text style={[styles.date, {color: colors.heading2}]}>Today's Date: {new Date().toLocaleDateString()}</Text>
-      <Text style={[styles.version,{color: colors.heading2}]}>App Version: 1.0.0</Text>
+      <Text style={[styles.version,{color: colors.heading2}]}>App Version: {appVersion}</Text>
       <Text style={[styles.copyright, {color: colors.text}]}>Copyright: Pavel Drozdov</Text>
       
       <View style={styles.switchContainer}>

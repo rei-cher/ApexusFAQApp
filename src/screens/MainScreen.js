@@ -36,7 +36,7 @@ export default function MainScreen() {
   const renderCategory = ({ item }) => (
     <TouchableOpacity
       style={[styles.category, {backgroundColor: colors.categoryBackground, shadowColor: colors.shadow}]}
-      onPress={() => navigation.navigate('List', { categoryId: item.id, filename: item.filename, title: item.title })} // Pass filename along with categoryId
+      onPress={() => navigation.navigate('List', { categoryId: item.id, filename: item.filename, title: item.title })} // Pass filename along with categoryId and title
     >
       <Text style={[setGlobalStyle.subheading, {color: colors.heading2}]}>{item.title}</Text>
     </TouchableOpacity>
