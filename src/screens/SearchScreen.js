@@ -1,8 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
 import { View, Text, TouchableOpacity, TextInput, FlatList, StyleSheet } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { categoryFileMap } from '../helpers/categoryMapping';
-import { globalStyle } from '../assets/globalStyle';
+import { globalStyle, getColors } from '../assets/globalStyle';
+import { ThemeContext } from '../helpers/ThemeContext';
 
 export default function SearchScreen() {
   const [searchText, setSearchText] = useState('');
@@ -10,6 +11,12 @@ export default function SearchScreen() {
   const [allFAQs, setAllFAQs] = useState([]); // Holds all FAQs from all categories
 
   const navigation = useNavigation();
+
+  const { isDarkMode } = useContext(ThemeContext);
+
+  const setGlobalStyle = globalStyle(isDarkMode);
+
+  const colors = getColors(isDarkMode);
 
   // Load all FAQs from all categories on initial render
   useEffect(() => {
@@ -41,19 +48,21 @@ export default function SearchScreen() {
 
   const renderFAQ = ({ item }) => (
     <TouchableOpacity
-      style={styles.faqItem}
+      style={[styles.faqItem, {backgroundColor: colors.categoryBackground}]}
       onPress={() => navigation.navigate('FAQDetail', { faqId: item.ID, categoryId: item.categoryId, fromScreen: 'Search' })}
     >
-      <Text style={[globalStyle.subheading, {textAlign: 'left'}]}>{item.question}</Text>
-      <Text style={globalStyle.text}>{item.answer.slice(0, 100)}...</Text>
+      <Text style={[setGlobalStyle.subheading, {textAlign: 'left', color: colors.question}]}>{item.question}</Text>
+      <Text style={[setGlobalStyle.text, {color: colors.answer}]}>{item.answer.slice(0, 100)}...</Text>
     </TouchableOpacity>
   );
 
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, {backgroundColor: colors.mainBackground}]}>
       <TextInput
         style={styles.searchInput}
+        color={colors.heading1}
         placeholder="Search FAQs..."
+        placeholderTextColor={colors.heading1}
         value={searchText}
         onChangeText={handleSearch}
       />
@@ -78,11 +87,10 @@ const styles = StyleSheet.create({
     marginBottom: 20,
     paddingLeft: 10,
     borderRadius: 20,
-    fontSize: 20
+    fontSize: 20,
   },
   faqItem: {
     padding: 15,
-    backgroundColor: '#e0e0e0',
     marginBottom: 10,
     borderRadius: 15,
   },

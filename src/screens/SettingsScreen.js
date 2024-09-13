@@ -1,21 +1,25 @@
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
 import { View, Text, Switch, StyleSheet } from 'react-native';
+import { ThemeContext } from '../helpers/ThemeContext';
+import { getColors } from '../assets/globalStyle';
 
 export default function SettingsScreen() {
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const { isDarkMode, toggleDarkMode } = useContext(ThemeContext);
+
+  const colors = getColors(isDarkMode);
 
   return (
-    <View style={[styles.container, { backgroundColor: isDarkMode ? '#333' : '#fff' }]}>
-      <Text style={styles.logo}>Apexus</Text>
-      <Text style={styles.date}>Today's Date: {new Date().toLocaleDateString()}</Text>
-      <Text style={styles.version}>App Version: 1.0.0</Text>
-      <Text style={styles.copyright}>Copyright: Pavel Drozdov</Text>
+    <View style={[styles.container, {backgroundColor: colors.mainBackground}]}>
+      <Text style={[styles.logo, {color: colors.heading1}]}>Apexus</Text>
+      <Text style={[styles.date, {color: colors.heading2}]}>Today's Date: {new Date().toLocaleDateString()}</Text>
+      <Text style={[styles.version,{color: colors.heading2}]}>App Version: 1.0.0</Text>
+      <Text style={[styles.copyright, {color: colors.text}]}>Copyright: Pavel Drozdov</Text>
       
       <View style={styles.switchContainer}>
-        <Text style={styles.switchLabel}>Dark Mode</Text>
+        <Text style={[styles.switchLabel, {color: colors.text}]}>Dark Mode</Text>
         <Switch
           value={isDarkMode}
-          onValueChange={() => setIsDarkMode(!isDarkMode)}
+          onValueChange={toggleDarkMode}
         />
       </View>
     </View>
@@ -29,9 +33,10 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   logo: {
-    fontSize: 24,
+    fontSize: 46,
     textAlign: 'center',
     marginBottom: 20,
+    fontWeight: '900'
   },
   date: {
     fontSize: 18,
@@ -50,7 +55,7 @@ const styles = StyleSheet.create({
   },
   switchContainer: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
+    justifyContent: 'space-evenly',
     alignItems: 'center',
   },
   switchLabel: {
