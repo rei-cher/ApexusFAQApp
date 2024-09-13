@@ -1,79 +1,103 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+#Apexus FAQ App
 
-# Getting Started
+Apexus FAQ App is a mobile application designed to provide users with an intuitive and efficient way to browse frequently asked questions (FAQs) on various topics. The app supports light and dark modes, user-friendly navigation, and provides smooth transitions between screens.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+##Features
+* **FAQ Categories**: Users can explore different categories of FAQs like 340B Eligibility, Pricing, Orphan Drugs, etc.
 
-## Step 1: Start the Metro Server
+* **Search Functionality**: Powerful search feature to quickly find relevant questions across all categories.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+* **FAQ Detail View**: Displays complete answers to selected FAQs, with expandable question sections.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+* **Settings**: Users can toggle between light and dark mode.
 
-```bash
-# using npm
-npm start
+* **Dark Mode Support**: The app supports a dark theme to reduce eye strain during night-time usage.
 
-# OR using Yarn
-yarn start
-```
+## Tech Stack
+* **Frontend Framework**: React Native
 
-## Step 2: Start your Application
+* **Navigation**: React Navigation
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+* **Icons**: react-native-vector-icons (Ionicons)
 
-### For Android
+* **Context Management**: React Context API for managing theme (light/dark mode)
 
-```bash
-# using npm
-npm run android
+* **State Management**: React hooks (useState, useEffect)
 
-# OR using Yarn
-yarn android
-```
+* **File Management**: JSON files for loading FAQ data from the app’s assets
 
-### For iOS
+## Main Features & Components
+1. MainScreen
+   * Displays a grid of FAQ categories.
 
-```bash
-# using npm
-npm run ios
+   * Each category loads its own set of FAQs from corresponding JSON files.
 
-# OR using Yarn
-yarn ios
-```
+   * Customizable design for light and dark modes.
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+2. SearchScreen
+   * Allows users to search through all available FAQs.
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+   * Displays results with relevant questions and snippets of answers.
 
-## Step 3: Modifying your App
+3. FAQScreen
+   * Shows detailed information about a selected FAQ, including the question and full answer.
 
-Now that you have successfully run the app, let's modify it.
+   * Users can expand or collapse long questions for better readability.
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+4. SettingsScreen
+   * Provides a switch to toggle between light and dark mode.
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+   * Displays app version and other information.
 
-## Congratulations! :tada:
+##Navigation Structure
+The app uses a bottom tab navigator to switch between the main sections:
 
-You've successfully run and modified your React Native App. :partying_face:
+* **Home Tab**: Displays the FAQ categories (MainScreen).
 
-### Now what?
+* **Search Tab**: Provides a search interface for FAQs.
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+* **Settings Tab**: Allows users to customize the app experience (toggle dark mode, view version, etc.).
 
-# Troubleshooting
+Each tab has a stack navigator for handling transitions:
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+* **MainStackNavigator**: Navigates between the category list and individual FAQ details.
 
-# Learn More
+* **SearchStackNavigator**: Navigates between search results and FAQ details.
 
-To learn more about React Native, take a look at the following resources:
+##Theming
+The app supports both light and dark themes, managed globally using the `ThemeContext`:
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+* **Light Mode**: Bright and clean design, optimized for daytime use.
+
+* **Dark Mode**: Eye-friendly colors and contrasts, optimized for night-time or low-light use.
+
+## Installation and Setup
+To set up the app locally:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/rei-cher/ApexusFAQApp.git
+   cd ApexusFAQApp
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Run the app:
+   * **Android**
+
+      ```bash
+      npx react-native run-android
+      npm start
+      ```
+   * **IOS**
+      ```bash
+      npx react-native run-ios
+      ```
+      > **IMPORTANT**
+      >
+      >IOS functionality is still in `development`
